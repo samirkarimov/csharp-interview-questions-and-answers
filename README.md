@@ -4,6 +4,7 @@ Top 100 C# Interview Questions
 1. C# nədir? 
 > Programlama Dili
 2. Explain the features of C#?
+
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
 4. What are IDE’s provided by Microsoft for C# development?
 5. Explain the types of comments in C#?
@@ -30,7 +31,7 @@ Top 100 C# Interview Questions
 26. Explain Jagged Arrays in C#?
 27. Can we use “this” inside a static method in C#?
 28. What are value types in C#? C#-da deyer tipleri nedir ne demekdir? 
-30. What are reference types in C#?
+30. What are reference types in C#? C# da referans tipleri nedir?
 31. Can we override private virtual method in C#?
 32. Explain access modifier – “protected internal” in C#?
 33. In try block if we add return statement whether finally block is executed in C#?
