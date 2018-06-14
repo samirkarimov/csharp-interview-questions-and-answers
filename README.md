@@ -10,7 +10,7 @@ Top 100 C# Interview Questions
 7. Give an example of using sealed class in C#?
 8. List out the differences between Array and ArrayList in C#?
 9. Why to use “using” in C#?
-10. C#-da adboşluğunu nədir?
+10. C#-da adboşluğu nədir?
 11. Why to use keyword “const” in C#? Give an example.
 12. What is the difference between “constant” and “readonly” variables in C#?
 13. Explain “static” keyword in C#?
