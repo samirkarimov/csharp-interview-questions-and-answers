@@ -1,4 +1,4 @@
-# Top-100-csharp-interview-question
+﻿# Top-100-csharp-interview-question
 Top 100 C# Interview Questions
 
 1. C# nədir? 
@@ -42,3 +42,4 @@ Top 100 C# Interview Questions
 39. How we can sort the array elements in descending order in C#?
 40. Explain circular reference in C#?
 41. List out some of the exceptions in C#?
+42. Cav commit
