@@ -20,7 +20,7 @@ Top 100 C# Interview Questions
 17. Why to use “finally” block in C#?
 18. What is the difference between “finalize” and “finally” methods in C#?
 19. What is the difference between “throw ex” and “throw” methods in C#?
-20. Can we have only “try” block without “catch” block in C#?
+20. C#-da"Catch" bloku olmadan , sadəcə “try” bloku ola bilərmi?
 21. List out two different types of errors in C#?
 22. Do we get error while executing “finally” block in C#?
 23. Mention the assembly name where System namespace lies in C#?
