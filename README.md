@@ -1,4 +1,4 @@
-# C# Müsahibə sualları və cavabları
+﻿# C# Müsahibə sualları və cavabları
 
 1. C# nədir? 
 > Programlama Dili
@@ -6,11 +6,11 @@
 > Öyrənmək çox asandır
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
 4. What are IDE’s provided by Microsoft for C# development?
-5. Explain the types of comments in C#?
-6. Explain sealed class in C#?
+5. C#-da comment növlərinin izahını verin.
+6. C#-da "sealed class"-ı izah edin.
 7. Give an example of using sealed class in C#?
 8. List out the differences between Array and ArrayList in C#?
-9. C# da "using" nə üçün istifadə olunur
+9. C# da "using" nə üçün istifadə olunur?
 10. Explain namespaces in C#?
 11. Why to use keyword “const” in C#? Give an example.
 12. What is the difference between “constant” and “readonly” variables in C#?
