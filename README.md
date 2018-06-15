@@ -2,27 +2,27 @@
 
 1. C# nədir? 
 > Programlama Dili
-2. Explain the features of C#?
+2. C#-ın xüsusiyyətlərini açıqlayın.
 > Öyrənmək çox asandır
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
 4. What are IDE’s provided by Microsoft for C# development?
-5. C#-da comment növlərinin izahını verin.
+5. C#-da "comment" növlərinin izahını verin.
 6. C#-da "sealed class"-ı izah edin.
-7. Give an example of using sealed class in C#?
-8. List out the differences between Array and ArrayList in C#?
+7. C#-da "sealed class"-ın istifadəsinə aid nümunə verin.
+8. C#-da "Array" və "ArrayList" arasındakı fərqləri sadalayın.
 9. C# da "using" nə üçün istifadə olunur?
-10. Explain namespaces in C#?
-11. Why to use keyword “const” in C#? Give an example.
-12. What is the difference between “constant” and “readonly” variables in C#?
-13. Explain “static” keyword in C#?
-14. What is the difference between “dispose” and “finalize” variables in C#?
-15. How the exception handling is done in C#?
-16. Can we execute multiple catch blocks in C#?
-17. Why to use “finally” block in C#?
-18. What is the difference between “finalize” and “finally” methods in C#?
-19. What is the difference between “throw ex” and “throw” methods in C#?
-20. Can we have only “try” block without “catch” block in C#?
-21. List out two different types of errors in C#?
+10. C#-da "namespace"-i izah edin.
+11. C#-da "const" sözündən(və ya açar sözündən) nə üçün istifadə olunur? Buna aid nümunə göstərin.
+12. C#-da "constant" və "readonly" dəyişənləri arasında fərq nədir?
+13. C#-da "static" söz(və ya açar söz)-nü izah edin.
+14. C#-da "dispose" və "finalize" dəyişənləri arasında fərq nədir?
+15. C#-da istisnaların düzəldilməsi prosesi necə gedir?
+16. C#-da bir neçə "catch" blokunu işlədə bilərikmi?
+17. C#-da "finally" blokunun istifadəsi nə üçündür?
+18. C#-da "finalize" və "finally" metodları arasında fərq nədir?
+19. C#-da "throw ex" və "throw" metodları arasında fərq nədir?
+20. C#-da "catch" blokundan istifadə etmədən "try" blounu işlədə bilərikmi?
+21. C#-da xətaların iki müxtəlif növünü sadalayın.
 22. Do we get error while executing “finally” block in C#?
 23. Mention the assembly name where System namespace lies in C#?
 24. What are the differences between static, public and void in C#?
