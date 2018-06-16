@@ -1,14 +1,17 @@
 # C# Müsahibə sualları və cavabları
 
 1. C# nədir? 
-> Programlama Dili
+> C# Web Aplication,Alient-Side Aplication Windows Form Aplication və s.yazmaq üçün istifadə olunan və .Net platformunda işləyən bir programlama dilidir.
 2. Explain the features of C#?
 > Öyrənmək çox asandır
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
-4. What are IDE’s provided by Microsoft for C# development?
+4. Microsoft C# üçün hansı İDE-ni dəstəkləyir?
+>Visual Studio 2017.
 5. Explain the types of comments in C#?
-6. Explain sealed class in C#?
+6. C#-da Sealed classı-nı izah edin?
+>Sealed class-lar "sealed" keywordu ilə təyin olunur.Sealed class-larin xüsüsiyyəti onlarin inherit verə bilməməsidir.Ancaq inherit ala bilirlər. 
 7. Give an example of using sealed class in C#?
+>
 8. List out the differences between Array and ArrayList in C#?
 9. C# da "using" nə üçün istifadə olunur
 10. Explain namespaces in C#?
