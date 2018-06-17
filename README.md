@@ -5,7 +5,7 @@
 2. C#-ın xüsusiyyətlərini açıqlayın.
 > Öyrənmək çox asandır
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
-4. What are IDE’s provided by Microsoft for C# development?
+4. C#-da proqramlaşdırma üçün Microsoft tərəfindən hansı İDE-lər hazırlanmışdır?
 5. C#-da "comment" növlərinin izahını verin.
 6. C#-da "sealed class"-ı izah edin.
 7. C#-da "sealed class"-ın istifadəsinə aid nümunə verin.
@@ -23,25 +23,25 @@
 19. C#-da "throw ex" və "throw" metodları arasında fərq nədir?
 20. C#-da "catch" blokundan istifadə etmədən "try" blounu işlədə bilərikmi?
 21. C#-da xətaların iki müxtəlif növünü sadalayın.
-22. Do we get error while executing “finally” block in C#?
-23. Mention the assembly name where System namespace lies in C#?
-24. What are the differences between static, public and void in C#?
-25. What is the difference between “out” and “ref” parameters in C#?
-26. Explain Jagged Arrays in C#?
-27. Can we use “this” inside a static method in C#?
-28. What are value types in C#? C#-da deyer tipleri nedir ne demekdir? 
-30. What are reference types in C#?
-31. Can we override private virtual method in C#?
-32. Explain access modifier – “protected internal” in C#?
+22. C#-da "finally" blokunu işə saldıqda bizə error verirmi?
+23. C#-da "System" namespace-inin yerləşdiyi assembly adını qeyd edin.
+24. C#-da "static", "public" və "void" keywordləri arasındakı frəqlər nələrdir?
+25. C#-da "out" və "ref" parametrləri arasındakı fərq nədir?
+26. C#-da "Jagged Array"-ləri izah edin.
+27. C#-da static metodun içində "this" keywordündən istifadə edə bilərikmi?
+28. C#-da dəyər tipləri nədir? 
+30. C#-da referans tipləri nədir?
+31. C#-da private virtual metodun override olunması mümkündürmü?
+32. C#-da "protected initernal" access modifier-ını izah edin?
 33. In try block if we add return statement whether finally block is executed in C#?
-34. What you mean by inner exception in C#?
-35. C# da String Builder klasın izah edin.
-36. What is the difference between “StringBuilder” and “String” in C#?
-37. What is the difference between methods – “System.Array.Clone()” and “System.Array.CopyTo()” in C#?
-38. Can you store multiple data types in an array?
-39. How we can sort the array elements in descending order in C#?
-40. Explain circular reference in C#?
-41. List out some of the exceptions in C#?
+34. C#-da daxilio xəta dedikdə nə nəzərdə tutulur?
+35. C#-da String Builder klasını izah edin.
+36. C#-da "String" və "StringBuilder" arasındakı fərq nədir?
+37. C#-da "System.Array.Clone()" və "System.Array.CopyTo()" metodları arasındakı fərq nədir?
+38. Array-də bir neçə müxtəlif verilən tipini saxlamaq mümkündürmü?
+39. C#-da array-in elementlərini azalan sıra ilə necə düzə bilərik?
+40. C#-da dövri referans-ı izah edin.
+41. C#-da bəzi istisnaları sadalayın.
 42. Explain Generics in C#?
 43. Explain object pool in C#?
 44. What you mean by delegate in C#?
