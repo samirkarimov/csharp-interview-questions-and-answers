@@ -1,16 +1,27 @@
 # C# Müsahibə sualları və cavabları
 
 1. C# nədir? 
-> Programlama Dili
-2. Explain the features of C#?
-> Öyrənmək çox asandır
+> C #, proqram sahəsində ən çox istifadə olunan iki proqram dili olan C və C ++ qarşılıqlı əlaqələrindən yaranır. Ayrıca, C #, Java ilə çox oxşarlıqlara sahibdir. Ən əhəmiyyətli xüsusiyyət, .Net Framework platforması üçün tamamilə obyekt yönümlü bir proqram dilidir. Başqa sözlə, obyektlər sinifdə (yəni klasslarda) yazılmışdır. İnkişaf etmiş bir xüsusiyyəti də odur ki, DEBUGGER ayarı ilə səhv ehtimalları aradan qaldırılır. Yazılı proqramdan sonra kompilyator tərəfindən təsbit edilən siniflər və sintaksis səhvləri proqramçı tərəfindən ayrı-ayrı ekranda göstərilir və proqramçı bu xəta pəncərəsindəki səhvləri aşkar edərək asanlıqla düzəldə bilər.
+2. C # xüsusiyyətlərini izah edin.
+> -C # Windows, Mac və Linux-da çalışır
+  -C # açıq mənbədir
+  -C #, Windows müştəri tətbiqləri, Windows Store tətbiqləri, iOS tətbiqləri və Android apps qurmaq üçün istifadə edilə bilər
+  -Bütün IDE və redaktorları dəstəkləyir
+  -C # gəncdir və inkişaf edir.
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
-4. What are IDE’s provided by Microsoft for C# development?
-5. Explain the types of comments in C#?
+> Sadə, Modern programlaşdırma dili, Obyekt yönümlü, Güvənli, Zəngin kitabxana, Yüksək sürət, Komponent yönümlü, Strukturlaşdırılmış proqramlaşdırma dili
+4. C # inkişafı üçün Microsoft tərəfindən verilən IDE nədir?
+> IDE, inkişaf prosesinin səmərəli istifadəsinə kömək edir. İnkişaf prosesini təşkil etmək üçün istifadə edilə biləcək bir çox vasitələrlə yanaşı, proqramçıların proqramları tez və rahat şəkildə inkişaf etdirə biləcəyi bir proqram növüdür.
+5. C # -də şərh növlərini izah edin.
+> Comment C# da bir növ var olan məlumatı boşluq kimi göstərir, yəni ekrandakı məlumatlar sadəcə görünüş olaraq var olurlar. Comment-lərin əsasən 3 növü vardır.
+Single Line Comment // yalnız 1 xətt üzərində istifadə etmək üçün daha rahatdı
+MultiLine Comment   /* uzun şərhlər üçün istifadə olunur
+XML documentation comment /// XML şərhlərində istifadə olunur.
 6. Explain sealed class in C#?
+> 
 7. Give an example of using sealed class in C#?
 8. List out the differences between Array and ArrayList in C#?
-9. C# da "using" nə üçün istifadə olunur
+9. C# da "using" nə üçün istifadə olunur?
 10. Explain namespaces in C#?
 11. Why to use keyword “const” in C#? Give an example.
 12. What is the difference between “constant” and “readonly” variables in C#?
