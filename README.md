@@ -396,3 +396,4 @@ Hər Obyekt Yaradanda Ferqli Deyerler Teyin Etmek Mümkün Deyil. Varsayılan Qu
 98. What is a Destructor in C# ?  ( Cavidan )
 99. What is CLR in c# ? ( Cavidan )
 100. What is Garbage Collecter in C#?  ( Cavidan )
+101. C# fərdi şəkildə destructor metod yazmaq mümkündürmü? Əgər mümkündürsə nümumə verin.
