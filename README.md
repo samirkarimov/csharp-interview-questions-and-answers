@@ -1,5 +1,7 @@
 # C# Müsahibə sualları və cavabları
 
+Edit Attempt
+
 1. C# nədir? 
 
 
