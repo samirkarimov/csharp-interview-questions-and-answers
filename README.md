@@ -3,6 +3,7 @@
 1. C# nədir? 
 > Fazilabi---C# , 2000ci ildə Microsoft tərəfindən yaradılan və inkişaf etdirilən, formalaşdırılması və inkişafında  rəhbərliyini Anders Hejlberg-in etdiyi, .Net Framework platformasinda çalışan ,öyrənilməsi sadə, müasir, ümumi məqsədlər üçün  yaradılmış, qrup şəklində çalışmaq üçün uyğun olan, tamamilə obyekt yönümlü proqramlaşdırma dilidir.
 
+Zamin Hesenov 1999 ci il yaranib.Anders Hejlberg terefinden inkisaf eletdirlib.Hal hazirde web ve ya desktop lahiyeler yazmaqda istifade ollunur.Obeykt yonumlu proglasdirma dilinden istifade olunur
 
 > mirzamin42 : C#, özündə  böyük əməliyyatlar ehtiva edən, özündə böyük məlumat daşıyan - ötürən, bir şirkətin virtual idarə edilməsi üçün lazım olan bir proqram(CRM) yazmaq üçün  hər şeyi özündə birləşdirən proqramlaşdırma dilidir. C# real dünya obyektlərini daha aydın şəkildə virtual aləmdə tətbiq etmək üçün ən səmərəli dillərdən biridir.
 
