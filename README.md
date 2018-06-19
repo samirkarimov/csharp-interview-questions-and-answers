@@ -29,17 +29,17 @@ C# multi paradiqmalı proqramlaşdırma dilidir.Özündə imperative,deklarativ,
 
 2. C# - ın özəlliklərini İzah Edin? ( Suleyman )
 
-  -Müasir proqramlaşdırma dilidir. C# müasir tələblər əsasında yaranıb.
-  -Updatable.Avtomatik olaraq c# yeni versiyasi cixanda yenilenir,neticede kohne fayllar yenisiyle evez olunur.
-  -Windovs ,Mac ve Linux - da işləyir
-  -Windovs Müştəri Tətbiqləri ,Windovs Mağaza Tətbiqləri ,İOS Tətbiqləri,  Android Tətbiqləri və Həmçinin (backend  framevork           library) - lar Yaratmaq Üçün İstifade Olunur.
-  -Fiks Etme, Yenidən Düzənləmək və Kod Yaratmaq Alətləri(cw+tab+tab)dəstəkləyir.
-  -Gəncdir ve inkişaf edir.
-  -Obyekt Yönümlüdür(OOP dildir).Yeni ki ,biz c#-da hər şeyi obyekt kimi goruruk,obyektler klasslarin ekzemplarıdır,klasslar isə inheritance iyerarxiyasi yaradırlar
-  -Sadədir-yəni həm  yazılma sintaksisi insan dilinə daha  yaxın olduğu üçün hamı tərəfindən də başadüşüləndir, həm də obyekt yönümlü olduğu üçün real həyatdan olan istənilən bir prosesə uyğunlaşdırmaq mümkündür.
-  -Strukturlu programlaşdırma dilidir.
-  -Type safe(güvənli yazı)
-  -Birliktə Calisabilirlik(Interoperability)
+  - Müasir proqramlaşdırma dilidir. C# müasir tələblər əsasında yaranıb.
+  - Updatable.Avtomatik olaraq c# yeni versiyasi cixanda yenilenir,neticede kohne fayllar yenisiyle evez olunur.
+  - Windovs ,Mac ve Linux - da işləyir
+  - Windovs Müştəri Tətbiqləri ,Windovs Mağaza Tətbiqləri ,İOS Tətbiqləri,  Android Tətbiqləri və Həmçinin (backend  framevork           library) - lar Yaratmaq Üçün İstifade Olunur.
+  - Fiks Etme, Yenidən Düzənləmək və Kod Yaratmaq Alətləri(cw+tab+tab)dəstəkləyir.
+  - Gəncdir ve inkişaf edir.
+  - Obyekt Yönümlüdür(OOP dildir).Yeni ki ,biz c#-da hər şeyi obyekt kimi goruruk,obyektler klasslarin ekzemplarıdır,klasslar isə inheritance iyerarxiyasi yaradırlar
+  - Sadədir-yəni həm  yazılma sintaksisi insan dilinə daha  yaxın olduğu üçün hamı tərəfindən də başadüşüləndir, həm də obyekt yönümlü olduğu üçün real həyatdan olan istənilən bir prosesə uyğunlaşdırmaq mümkündür.
+  - Strukturlu programlaşdırma dilidir.
+  - Type safe(güvənli yazı)
+  - Birliktə Calisabilirlik(Interoperability)
 
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın. ( Sekine )
 
