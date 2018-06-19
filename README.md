@@ -45,7 +45,7 @@ Zamin     C# 1999 ci il yaranib.Anders Hejlberg terefinden inkisaf eletdirlib.Ha
   
  
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
-3. C#-ın bəzi üstünlüklərini sadalayın.
+ C#-ın bəzi üstünlüklərini sadalayın.
 > C# , obyekt yönümlü proqramlaşdırma dili olub aşağıdakı bir neçə xüsusiyyətləri vardır:
 1-Sadədir-yəni həm  yazılma sintaksı insan dilinə daha  yaxın olduğu üçün hamı tərəfindən də başadüşüləndir, həm də obyekt yönümlü olduğu üçün real həyatdan olan istənilən bir prosesə uyğunlaşdırmaq mümkündür.
 2-Müasir proqramlaşdırma dilidir-yəni digər böyük dillərdən , məsələn,  C, C++, Java dillərindən sonra yarandığı üçün onlarda olan bütün müsbət və mənfi  xüsusiyyətlər nəzərə alınaraq daha böyük və çətin proyektlərin həll olunması məqsədilə ideal bir proqramlaşdırma dili yaratmaq üçün formalaşdırılmışdır.
