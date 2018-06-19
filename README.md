@@ -74,11 +74,11 @@
 " Sealed " class OOP nin miras xüsusiyyətlərini məhdudlaşdırmaq üçün istifadə olunur. Hər hansı bir class "sealed" keyvordu ilə bəyan edildikdə miras alına bilmir. "sealed" eyni zamanda həm atributlara həm də method lara təyin oluna bilsə də "sealed" keyvord unun bu xüsusiyyəti onlara aid edilmir. Sadəcə class üzrə təyin oluna bilir. 2 misalla visualda izah edəcəm
 
 8. List out the differences between Array and ArrayList in C#? ( Mirzamin )
-> hər 2sinin oxşarlıqı ondan ibarətdir ki, 1 dən çox datanı saxlamaq üçün istifadə olunur.
-Array lərin Listlərdən başlıca xüsusiyyəti ondan ibarətdir ki, array lər sabit elementləri saxlamaq üçündür. List lərdə isə datanın sayı avtomatik təyin olunduğundan başda sayı bildirmək lazım deyil. 
-Bir array təyin etdikdən sonra onun elementlərini artırmaq olmur. List lərə isə sonradan istənilən sayda element artırmaq mümkündür.
-Bir array təyin edilərkən ancaq təyin edildiyi tipin elementlərini daşıya bilir. Listlərdə isə istənilən növ tipin elementlərini saxlamaq mümkündür.
-Bir Array yalanız " using System; " namespace ilə istfadə edildiyi halda ArrayList " using System.Collections; " namespace ilə istfadə edilir.
+> Hər 2sinin oxşarlığı ondan ibarətdir ki, 1 dən çox datanı saxlamaq mümkün olur.
+Array lərin ArrayListlərdən başlıca fərqi ondan ibarətdir ki, array lər hər hansı bir data tipinin sabit elementləri saxlamaq üçündür. ArrayList lərdə isə datanın sayı avtomatik olaraq təyin olunduğundan başda sayı bildirmək lazım deyil. 
+Bir array təyin etdikdən sonra onun elementlərini run-time vaxtı artırmaq olmur. ArrayList lərə isə sonradan istənilən sayda element artırmaq və ya azaltmaq mümkündür.
+Bir array təyin edilərkən ancaq təyin edildiyi tipin elementlərini daşıya bilir. Listlərdə isə istənilən növ tipin elementlərini saxlamaq mümkündür. Məs : əgər biz 'int' tipində bir array təyin edəndə onun içinə yalnız 'int' tipində element yığmaq olur. ArrayList lərdə isə istənilən data tipinin istənilən sayda elementini əlavə etmək olur
+Bir Array " using System; " namespace ilə istfadə edildiyi halda ArrayList " using System.Collections; " namespace ilə istfadə edilir.
 
 9. C# da "using" nə üçün istifadə olunur ( Cavidan )
 > "using" keyvordunun 2 istifadə yeri var :
@@ -176,7 +176,6 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 48. Can we use delegates for asynchronous method calls in C#? ( Elvin )
 49. What are the uses of delegates in C#? ( Elvin )
 50. What is Nullable Types in C#? ( Mustafa ) 
-> Nullable tiplər o qədər də geniş istifadə olunmur, lakin istifadəsinin vacib olduğu yerlərdə əlverişlidir. Əvvəlcədən dəyərini bilmədiyimiz(və ya mənimsədilməmiş) verilən tipinin error(xəta) verməməsi üçün nullable typelardan istifadə olunur. Reference typelara null dəyəri vermək mümkündür, value typelar üçünsə "?" işarəsi ilə declare olunmalıdır. Bundan sonra int, bool və s. tiplərə də "null" dəyərini mənimsətmək mümkündür.
 51. Why to use “Nullable Coalescing Operator” (??) in C#? ( Mustafa ) 
 52. What is the difference between “as” and “is” operators in C#? ( Suleyman )
 53. What is the difference between CType and Directcast in C#? ( Suleyman )
