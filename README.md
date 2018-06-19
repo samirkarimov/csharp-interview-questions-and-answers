@@ -93,11 +93,13 @@
 20. Can we have only “try” block without “catch” block in C#?
 21. List out two different types of errors in C#?
 22. Do we get error while executing “finally” block in C#?
+> Kodu düz yazmışıqsa niyə error olsun ki? :P
 23. Mention the assembly name where System namespace lies in C#?
 24. What are the differences between static, public and void in C#?
 25. What is the difference between “out” and “ref” parameters in C#?
 26. Explain Jagged Arrays in C#?
 27. Can we use “this” inside a static method in C#?
+> Metod statik olduğu üçün class dan reach edirik, lakin o metodda classdan yaranan obyekt üzərində əməliyyat aparırıq, buna görə də teoriyam doğrudursa istifadə oluna bilməlidi. :))
 28. What are value types in C#? C#-da deyer tipleri nedir ne demekdir? 
 30. What are reference types in C#?
 31. Can we override private virtual method in C#?
@@ -120,6 +122,7 @@
 48. Can we use delegates for asynchronous method calls in C#?
 49. What are the uses of delegates in C#?
 50. What is Nullable Types in C#?
+> Daha sonra dəyər assign etmək üçün içini boş qoya biləcəyimiz tipdir.
 51. Why to use “Nullable Coalescing Operator” (??) in C#?
 52. What is the difference between “as” and “is” operators in C#?
 53. What is the difference between CType and Directcast in C#?
@@ -128,6 +131,7 @@
 56. Explain Hashtable in C#?
 57. How to check whether hash table contains specific key in C#?
 58. What is enum in C#?
+> Üzərində əməliyyat aparılmayan (add, remove və s.) yalnız istifadə olunan collection.
 59. Which are the loop types available in C#?
 60. What is the difference between “continue” and “break” statements in C#?
 61. Write a sample code to write the contents to text file in C#?
