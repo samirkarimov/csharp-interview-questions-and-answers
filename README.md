@@ -1,8 +1,4 @@
 # C# Müsahibə sualları və cavabları
-## Araşdırma qaynaqları 
-- https://www.commonlounge.com/
-- https://www.quora.com/
-
 
 1. C# nədir? (Cavidan)
 > Fazilabi---C# , 2000ci ildə Microsoft tərəfindən yaradılan və inkişaf etdirilən, formalaşdırılması və inkişafında  rəhbərliyini Anders Hejlberg-in etdiyi, .Net Framework platformasinda çalışan ,öyrənilməsi sadə, müasir, ümumi məqsədlər üçün  yaradılmış, qrup şəklində çalışmaq üçün uyğun olan, tamamilə obyekt yönümlü proqramlaşdırma dilidir.
@@ -29,17 +25,17 @@ C# multi paradiqmalı proqramlaşdırma dilidir.Özündə imperative,deklarativ,
 
 2. C# - ın özəlliklərini İzah Edin? ( Suleyman )
 
->  - Müasir proqramlaşdırma dilidir. C# müasir tələblər əsasında yaranıb.
->  - Updatable.Avtomatik olaraq c# yeni versiyasi cixanda yenilenir,neticede kohne fayllar yenisiyle evez olunur.
->  - Windovs ,Mac ve Linux - da işləyir
->  - Windovs Müştəri Tətbiqləri ,Windovs Mağaza Tətbiqləri ,İOS Tətbiqləri,  Android Tətbiqləri və Həmçinin (backend  framevork           library) - lar Yaratmaq Üçün İstifade Olunur.
->  - Fiks Etme, Yenidən Düzənləmək və Kod Yaratmaq Alətləri(cw+tab+tab)dəstəkləyir.
->  - Gəncdir ve inkişaf edir.
->  - Obyekt Yönümlüdür(OOP dildir).Yeni ki ,biz c#-da hər şeyi obyekt kimi goruruk,obyektler klasslarin ekzemplarıdır,klasslar isə inheritance iyerarxiyasi yaradırlar
->  - Sadədir-yəni həm  yazılma sintaksisi insan dilinə daha  yaxın olduğu üçün hamı tərəfindən də başadüşüləndir, həm də obyekt yönümlü olduğu üçün real həyatdan olan istənilən bir prosesə uyğunlaşdırmaq mümkündür.
->  - Strukturlu programlaşdırma dilidir.
->  - Type safe(güvənli yazı)
->  - Birliktə Calisabilirlik(Interoperability)
+> Müasir proqramlaşdırma dilidir. C# müasir tələblər əsasında yaranıb.
+>  Updatable.Avtomatik olaraq c# yeni versiyasi cixanda yenilenir,neticede kohne fayllar yenisiyle evez olunur.
+>  Windovs ,Mac ve Linux - da işləyir
+>  Windovs Müştəri Tətbiqləri ,Windovs Mağaza Tətbiqləri ,İOS Tətbiqləri,  Android Tətbiqləri və Həmçinin (backend  framevork           library) - lar Yaratmaq Üçün İstifade Olunur.
+>  Fiks Etme, Yenidən Düzənləmək və Kod Yaratmaq Alətləri(cw+tab+tab)dəstəkləyir.
+> Gəncdir ve inkişaf edir.
+> Obyekt Yönümlüdür(OOP dildir).Yeni ki ,biz c#-da hər şeyi obyekt kimi goruruk,obyektler klasslarin ekzemplarıdır,klasslar isə inheritance iyerarxiyasi yaradırlar
+>Sadədir-yəni həm  yazılma sintaksisi insan dilinə daha  yaxın olduğu üçün hamı tərəfindən də başadüşüləndir, həm də obyekt yönümlü olduğu üçün real həyatdan olan istənilən bir prosesə uyğunlaşdırmaq mümkündür.
+> Strukturlu programlaşdırma dilidir.
+> Type safe(güvənli yazı)
+> Birliktə Calisabilirlik(Interoperability)
 
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın. ( Sekine )
 
@@ -96,7 +92,7 @@ Səkinə tərəfindən:
 Array lərin Listlərdən başlıca xüsusiyyəti ondan ibarətdir ki, array lər sabit elementləri saxlamaq üçündür. List lərdə isə datanın sayı avtomatik təyin olunduğundan başda sayı bildirmək lazım deyil. 
 Bir array təyin etdikdən sonra onun elementlərini artırmaq olmur. List lərə isə sonradan istənilən sayda element artırmaq mümkündür.
 Bir array təyin edilərkən ancaq təyin edildiyi tipin elementlərini daşıya bilir. Listlərdə isə istənilən növ tipin elementlərini saxlamaq mümkündür.
-Bir Array yalanız " using System; " namespace ilə istfadə edildiyi halda ArrayList " using System.Collections; " namespace ilə istfadə edilir.
+Bir Array yalanız " using System; " namespace ilə istfadə edildiyi halda ArrayList " using System.Collections; " namespace ilə istfadə edilir.  Sources of literature : "https://msdn.microsoft.com/en-us/library/system.collections.arraylist(v=vs.110).aspx" ; "https://www.c-sharpcorner.com/blogs/difference-between-array-and-arraylist-in-c-sharp" ; "http://www.tutorialsteacher.com/articles/difference-between-array-and-arraylist-in-csharp" ;
 
 9. C# da "using" nə üçün istifadə olunur
 > "using" keyvordunun 2 istifadə yeri var :
