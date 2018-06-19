@@ -6,6 +6,7 @@
 > Öyrənmək çox asandır
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
 4. What are IDE’s provided by Microsoft for C# development?
+> Visual Studio Code (all versions)
 5. Explain the types of comments in C#?
 6. Explain sealed class in C#?
 7. Give an example of using sealed class in C#?
