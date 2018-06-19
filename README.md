@@ -12,6 +12,7 @@
 
 
 
+
 2. C# - ın özəlliklərini İzah Edin?
 
 > 1.C# - ı İstədiyiniz Editor-da Yaza Bilərsiniz
