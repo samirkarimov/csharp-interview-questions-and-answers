@@ -176,6 +176,7 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 48. Can we use delegates for asynchronous method calls in C#? ( Elvin )
 49. What are the uses of delegates in C#? ( Elvin )
 50. What is Nullable Types in C#? ( Mustafa ) 
+> Nullable tiplər o qədər də geniş istifadə olunmur, lakin istifadəsinin vacib olduğu yerlərdə əlverişlidir. Əvvəlcədən dəyərini bilmədiyimiz(və ya mənimsədilməmiş) verilən tipinin error(xəta) verməməsi üçün nullable typelardan istifadə olunur. Reference typelara null dəyəri vermək mümkündür, value typelar üçünsə "?" işarəsi ilə declare olunmalıdır. Bundan sonra int, bool və s. tiplərə də "null" dəyərini mənimsətmək mümkündür.
 51. Why to use “Nullable Coalescing Operator” (??) in C#? ( Mustafa ) 
 52. What is the difference between “as” and “is” operators in C#? ( Suleyman )
 53. What is the difference between CType and Directcast in C#? ( Suleyman )
