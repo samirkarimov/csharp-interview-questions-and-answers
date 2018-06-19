@@ -24,6 +24,8 @@ C# multi paradiqmalı proqramlaşdırma dilidir.Özündə imperative,deklarativ,
 #wikipedia
 by NaibRT :::C# Microsoft Corporation tərəfindən .Net platformu üçün yaradilan multi-paradigmali programlama dilidir.Bununla Windows Client Aplication,Xml Web Services,Client-Server Aplication və.s yazmaq mumkundur.
 
+Zamin     C# 1999 ci il yaranib.Anders Hejlberg terefinden inkisaf eletdirlib.Hal hazirde web ve ya desktop lahiyeler yazmaqda istifade ollunur.Obeykt yonumlu proglasdirma dilinden istifade olunur
+
 2. C# - ın özəlliklərini İzah Edin?
 
 > 1.C# - ı İstədiyiniz Editor-da Yaza Bilərsiniz
