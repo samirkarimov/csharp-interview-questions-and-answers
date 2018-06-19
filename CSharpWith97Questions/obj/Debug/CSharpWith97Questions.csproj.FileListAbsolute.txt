@@ -1,7 +1,0 @@
-C:\Users\Mirzamin - PC\source\repos\CSharpWith97Questions\CSharpWith97Questions\bin\Debug\CSharpWith97Questions.exe.config
-C:\Users\Mirzamin - PC\source\repos\CSharpWith97Questions\CSharpWith97Questions\bin\Debug\CSharpWith97Questions.exe
-C:\Users\Mirzamin - PC\source\repos\CSharpWith97Questions\CSharpWith97Questions\bin\Debug\CSharpWith97Questions.pdb
-C:\Users\Mirzamin - PC\source\repos\CSharpWith97Questions\CSharpWith97Questions\obj\Debug\CSharpWith97Questions.csprojAssemblyReference.cache
-C:\Users\Mirzamin - PC\source\repos\CSharpWith97Questions\CSharpWith97Questions\obj\Debug\CSharpWith97Questions.csproj.CoreCompileInputs.cache
-C:\Users\Mirzamin - PC\source\repos\CSharpWith97Questions\CSharpWith97Questions\obj\Debug\CSharpWith97Questions.exe
-C:\Users\Mirzamin - PC\source\repos\CSharpWith97Questions\CSharpWith97Questions\obj\Debug\CSharpWith97Questions.pdb
