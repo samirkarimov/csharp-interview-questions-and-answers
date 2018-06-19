@@ -44,11 +44,12 @@ C# multi paradiqmalı proqramlaşdırma dilidir.Özündə imperative,deklarativ,
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
 
 Səkinə tərəfindən:
-  -Type-safe olması;
-  -Obyekt yönümlü olması;
-  -.Net platforması altında işləməsi;
-  -Hər növ tətbiq yaza bilmə bacarığı;
-  -C# dilində yazılan programları .Net platforması altında digər dillərdə istifadə edə bilmə.
+  - Type-safe olması;
+  - Obyekt yönümlü olması;
+  - .Net platforması altında işləməsi;
+  - Hər növ tətbiq yaza bilmə bacarığı;
+  - C# dilində yazılan programları .Net platforması altında digər dillərdə istifadə edə bilmə.
+  
 4. What are IDE’s provided by Microsoft for C# development?
 
 > Visual Studio 2017
