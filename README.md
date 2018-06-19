@@ -43,6 +43,16 @@ by NaibRT :::C# Microsoft Corporation tərəfindən .Net platformu üçün yarad
   
  
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
+3. C#-ın bəzi üstünlüklərini sadalayın.
+> C# , obyekt yönümlü proqramlaşdırma dili olub aşağıdakı bir neçə xüsusiyyətləri vardır:
+1-Sadədir-yəni həm  yazılma sintaksı insan dilinə daha  yaxın olduğu üçün hamı tərəfindən də başadüşüləndir, həm də obyekt yönümlü olduğu üçün real həyatdan olan istənilən bir prosesə uyğunlaşdırmaq mümkündür.
+2-Müasir proqramlaşdırma dilidir-yəni digər böyük dillərdən , məsələn,  C, C++, Java dillərindən sonra yarandığı üçün onlarda olan bütün müsbət və mənfi  xüsusiyyətlər nəzərə alınaraq daha böyük və çətin proyektlərin həll olunması məqsədilə ideal bir proqramlaşdırma dili yaratmaq üçün formalaşdırılmışdır.
+3-Obyekt yönümlü dildir-yəni real həyatdan gördüyümüz bütün hadisələri, problemləri və prosesləri proqramlaşdırma dilinə çevirərək daha asan və sürətli həll olunması mümkündür.
+4-inkişaf etdirilən və daima yenilənən dildir.
+5-zəngin kitabxanaya sahib bir dildir.
+6-proqramın compiler və runtime zamanı daha sürətlidir.
+7-Microsoft kimi böyük firma tərəfindən dəstəklənir, inkişaf etdirilir və .Net platformasının bir hissəsidir. 
+8-Açıq qaynaq tipli dildir,  buna görə də geniş qaynaq tapmaq imkanına sahibdir.
 
 4. What are IDE’s provided by Microsoft for C# development?
 
