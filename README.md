@@ -71,7 +71,7 @@
 > Sealed Klass Obyekt Yönümlü Programlamanın İnheritance(miras) Xüsusiyyətini Ləğv Edir. Sealed Klasin İxtira Olunmasinin Səbəbi Odur ki Həmin Klasin Genişləndirilməyə Ehtiyyacinın Olmadığını deyirikk. Bu Klass İnheritance Ala Bilməz. C# - da "sealed" keywordu Klasın Sealed Klas Olduğunu Müəyyən Edir. Əgər Sealed Tətin Olunmuş Klas-dan İnheritance Almaqa Cehd Etsək Compile Error Verəcək.
 
 7. Give an example of using sealed class in C#? ( Fazil )
-" Sealed " class OOP nin miras xüsusiyyətlərini məhdudlaşdırmaq üçün istifadə olunur. Hər hansı bir class "sealed" keyvordu ilə bəyan edildikdə miras alına bilmir. "sealed" eyni zamanda həm atributlara həm də method lara təyin oluna bilsə də "sealed" keyvord unun bu xüsusiyyəti onlara aid edilmir. Sadəcə class üzrə təyin oluna bilir. 2 misalla visualda izah edəcəm
+> " Sealed " class OOP nin miras xüsusiyyətlərini məhdudlaşdırmaq üçün istifadə olunur. Hər hansı bir class "sealed" keyvordu ilə bəyan edildikdə miras alına bilmir. "sealed" eyni zamanda həm atributlara həm də method lara təyin oluna bilsə də "sealed" keyvord unun bu xüsusiyyəti onlara aid edilmir. Sadəcə class üzrə təyin oluna bilir. 2 misalla visualda izah edəcəm
 
 8. List out the differences between Array and ArrayList in C#? ( Mirzamin )
 > Hər 2sinin oxşarlığı ondan ibarətdir ki, 1 dən çox datanı saxlamaq mümkün olur.
