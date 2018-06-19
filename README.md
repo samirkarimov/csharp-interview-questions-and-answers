@@ -50,9 +50,15 @@ Səkinə tərəfindən:
   - Hər növ tətbiq yaza bilmə bacarığı;
   - C# dilində yazılan programları .Net platforması altında digər dillərdə istifadə edə bilmə.
   
-
-
-
+> Fazil--->
+3. C#-ın bəzi üstünlüklərini sadalayın.
+> C# , obyekt yönümlü proqramlaşdırma dili olub aşağıdakı bir neçə xüsusiyyətləri vardır:
+>1-Sadədir-yəni həm  yazılma sintaksı insan dilinə daha  yaxın olduğu üçün hamı tərəfindən də başadüşüləndir, həm də obyekt yönümlü >olduğu üçün real həyatdan olan istənilən bir prosesə uyğunlaşdırmaq mümkündür.
+>2-Müasir proqramlaşdırma dilidir-yəni digər böyük dillərdən , məsələn,  C, C++, Java dillərindən sonra yarandığı üçün onlarda olan >bütün müsbət və mənfi  xüsusiyyətlər nəzərə alınaraq daha böyük və çətin proyektlərin həll olunması məqsədilə ideal bir proqramlaşdırma >dili yaratmaq üçün formalaşdırılmışdır.
+>3-Obyekt yönümlü dildir-yəni real həyatdan gördüyümüz bütün hadisələri, problemləri və prosesləri proqramlaşdırma dilinə çevirərək daha >asan və sürətli həll olunması mümkündür.
+>4-inkişaf etdirilən və daima yenilənən dildir.
+>6-proqramın compiler və runtime zamanı, digər OOP dillərinə görə  daha sürətlidir.
+>7-Microsoft kimi böyük firma tərəfindən dəstəklənir, inkişaf etdirilir və .Net platformasının bir hissəsidir. 
   
 4. What are IDE’s provided by Microsoft for C# development?
 
@@ -90,32 +96,7 @@ Səkinə tərəfindən:
 6. C# - daki Sealed Klasını İzah Edin?
 
 > Sealed Klass Obyekt Yönümlü Programlamanın İnheritance(miras) Xüsusiyyətini Ləğv Edir. Sealed Klasin İxtira Olunmasinin Səbəbi Odur ki Həmin Klasin Genişləndirilməyə Ehtiyyacinın Olmadığını deyirikk. Bu Klass İnheritance Ala Bilməz. C# - da "sealed" keywordu Klasın Sealed Klas Olduğunu Müəyyən Edir. Əgər Sealed Tətin Olunmuş Klas-dan İnheritance Almaqa Cehd Etsək Compile Error Verəcək.
- 
 
-
-=======
-> C#, özündə  böyük əməliyyatlar ehtiva edən, özündə böyük məlumat daşıyan - ötürən, bir şirkətin virtual idarə edilməsi üçün lazım olan bir proqram(CRM) yazmaq üçün  hər şeyi özündə birləşdirən proqramlaşdırma dilidir. C# real dünya obyektlərini daha aydın şəkildə virtual aləmdə tətbiq etmək üçün ən səmərəli dillərdən biridir.
-
-2. Explain the features of C#?
-> Ən vacib xüsusiyyətlərindən bir neçəsi : müasir tələblərə cavab verməsi; müasir texlogiyalar tərəfindən sürətli işlədilməsi; bütün bunlarla yanaşı sadə olması, yəni asan başa düşülməsi, strukturlu olması; eyni anda bir proqramın ərsəyə gəlməsi üçün bir neçə proqramçının işləyə bilməsi; bunlardan ən əsası obyekt yönümlü olması. C# digər proq. dillərinin bütün çatışmayan xüsusiyyətlərini özündə tamamlayan bir dildir.
-
-3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
-> Asan oxunaqlı olması; sürətli kod yazmaq üçün method, shortcurt və keyvord ların çoxluğu; hemin keyvord ların mənasının asan başa düşülməsi; Visual Studio kimi bir İDE sinin olması (avtomatik error göstərdiyinə görə, kodda səhv olmasa belə run time vaxtı exeption nın step by step göstərməsi).
-
-4. What are IDE’s provided by Microsoft for C# development?
-> Microsoft tərəfindən c# üçün verilmiş İDE lərdən ən vacıbləri bunlardır:
-Visual Studio (Code);
-Productivity Power Tools (all versions);
- .NET Fiddle
-
-> Visual Studio Code (all versions)
-5. Explain the types of comments in C#?
-> C# da mən bildiyim qədərilə 2 comment üsulu var :
- 1. " // " ;
-2. " /* ... *\ " 
-
-6. Explain sealed class in C#?
->>>>>>> 51f3de6cdc71219301ef12fcb23861bc29fb79cd
 7. Give an example of using sealed class in C#?
 " Sealed " class OOP nin miras xüsusiyyətlərini məhdudlaşdırmaq üçün istifadə olunur. Hər hansı bir class "sealed" keyvordu ilə bəyan edildikdə miras alına bilmir. "sealed" eyni zamanda həm atributlara həm də method lara təyin oluna bilsə də "sealed" keyvord unun bu xüsusiyyəti onlara aid edilmir. Sadəcə class üzrə təyin oluna bilir. 2 misalla visualda izah edəcəm
 
