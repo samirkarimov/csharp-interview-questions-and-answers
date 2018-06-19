@@ -1,6 +1,7 @@
 # C# Müsahibə sualları və cavabları
 
 1. C# nədir? 
+<<<<<<< HEAD
 
 
 > C# 2000 - ci ildə "Andres Heilsberg" - tərəfindən Microsoft - da Java - ya Rəqib Olaraq İnkişaf Etdirilən müasir Abyekt Yönümlü Bir     Programlama Dilidir. C# - Microsoftun Java Uzərində Dəyişiklik Etməsini İstəmədiyi Ücün Yaradıldı. C# - İlk Yaradildigi Gündən Bəri     Sürətli Bir Şəkildə Böyüdü və Hal-hazırda Dünyanın Ən Populyar Programlama Dillərindən Biridir. Microsoft Platformunda Program           Təminatlari İnkişaf Etdirmək Üçün Dizayn Edilmiş Ümumi Məqsədli bir dildir ve Windows Üzərində İşləmək Üçün .NET Framework Tələb Edir.   C# - in Yaradilmasinda C ve C++ - dan İstifade Edilib və Buna Gorədə C#  C və C++ - in Hibrididir. .NET Framework Bir Çox Programlama   Dilini Dəstəkləsədə C# Sürətli Bir Şəkildə Ən Populyar OlanlardanBiri Halına Gəldi. C#  - Demək Olar ki  Hər Şey Yaratmaq Üçün           İstifade Olunur ama Özəlliylə windows Masaüstü Program Teminatlari və Oyunlar Yazmaq Üçcün Daha Yaxşıdır. C# - Həmçinin Web-Tətbiqlər   Yaratmaq Üçündə İstifade Olunur amma özəlliklə Mabil Tətbiqlər İnkişaf Etdirmək üçündə get-gede daha Populyar Hala Gəlmişdir.Xamarin     Kimi Cross-Platform alətlər(tool-lar) C# - da Yazılan Tətbiqləri Demək Olar ki Bütün Mabil Cihazlar-da İstifadə Olunmasını Təmin Edir.
@@ -70,9 +71,29 @@
  
 
 
+=======
+> C #, proqram sahəsində ən çox istifadə olunan iki proqram dili olan C və C ++ qarşılıqlı əlaqələrindən yaranır. Ayrıca, C #, Java ilə çox oxşarlıqlara sahibdir. Ən əhəmiyyətli xüsusiyyət, .Net Framework platforması üçün tamamilə obyekt yönümlü bir proqram dilidir. Başqa sözlə, obyektlər sinifdə (yəni klasslarda) yazılmışdır. İnkişaf etmiş bir xüsusiyyəti də odur ki, DEBUGGER ayarı ilə səhv ehtimalları aradan qaldırılır. Yazılı proqramdan sonra kompilyator tərəfindən təsbit edilən siniflər və sintaksis səhvləri proqramçı tərəfindən ayrı-ayrı ekranda göstərilir və proqramçı bu xəta pəncərəsindəki səhvləri aşkar edərək asanlıqla düzəldə bilər.
+2. C # xüsusiyyətlərini izah edin.
+> -C # Windows, Mac və Linux-da çalışır
+  -C # açıq mənbədir
+  -C #, Windows müştəri tətbiqləri, Windows Store tətbiqləri, iOS tətbiqləri və Android apps qurmaq üçün istifadə edilə bilər
+  -Bütün IDE və redaktorları dəstəkləyir
+  -C # gəncdir və inkişaf edir.
+3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
+> Sadə, Modern programlaşdırma dili, Obyekt yönümlü, Güvənli, Zəngin kitabxana, Yüksək sürət, Komponent yönümlü, Strukturlaşdırılmış proqramlaşdırma dili
+4. C # inkişafı üçün Microsoft tərəfindən verilən IDE nədir?
+> IDE, inkişaf prosesinin səmərəli istifadəsinə kömək edir. İnkişaf prosesini təşkil etmək üçün istifadə edilə biləcək bir çox vasitələrlə yanaşı, proqramçıların proqramları tez və rahat şəkildə inkişaf etdirə biləcəyi bir proqram növüdür.
+5. C # -də şərh növlərini izah edin.
+> Comment C# da bir növ var olan məlumatı boşluq kimi göstərir, yəni ekrandakı məlumatlar sadəcə görünüş olaraq var olurlar. Comment-lərin əsasən 3 növü vardır.
+Single Line Comment // yalnız 1 xətt üzərində istifadə etmək üçün daha rahatdı
+MultiLine Comment   /* uzun şərhlər üçün istifadə olunur
+XML documentation comment /// XML şərhlərində istifadə olunur.
+6. Explain sealed class in C#?
+> 
+>>>>>>> 954d8b8827f4930a4004c5133e8bab0200804445
 7. Give an example of using sealed class in C#?
 8. List out the differences between Array and ArrayList in C#?
-9. C# da "using" nə üçün istifadə olunur
+9. C# da "using" nə üçün istifadə olunur?
 10. Explain namespaces in C#?
 11. Why to use keyword “const” in C#? Give an example.
 
