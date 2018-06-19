@@ -1,4 +1,4 @@
-# C# Müsahibə sualları və cavabları
+﻿# C# Müsahibə sualları və cavabları
 
 1. C# nədir? 
 
