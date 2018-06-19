@@ -1,28 +1,12 @@
 # C# Müsahibə sualları və cavabları
 
 1. C# nədir? (Cavidan)
-> Fazilabi---C# , 2000ci ildə Microsoft tərəfindən yaradılan və inkişaf etdirilən, formalaşdırılması və inkişafında  rəhbərliyini Anders Hejlberg-in etdiyi, .Net Framework platformasinda çalışan ,öyrənilməsi sadə, müasir, ümumi məqsədlər üçün  yaradılmış, qrup şəklində çalışmaq üçün uyğun olan, tamamilə obyekt yönümlü proqramlaşdırma dilidir.
 
-
-> mirzamin42 : C#, özündə  böyük əməliyyatlar ehtiva edən, özündə böyük məlumat daşıyan - ötürən, bir şirkətin virtual idarə edilməsi üçün lazım olan bir proqram(CRM) yazmaq üçün  hər şeyi özündə birləşdirən proqramlaşdırma dilidir. C# real dünya obyektlərini daha aydın şəkildə virtual aləmdə tətbiq etmək üçün ən səmərəli dillərdən biridir.
-
-
-
-
-> C# 2000 - ci ildə "Andres Heilsberg" - tərəfindən Microsoft - da Java - ya Rəqib Olaraq İnkişaf Etdirilən müasir Abyekt Yönümlü Bir     Programlama Dilidir. C# - Microsoftun Java Uzərində Dəyişiklik Etməsini İstəmədiyi Ücün Yaradıldı. C# - İlk Yaradildigi Gündən Bəri     Sürətli Bir Şəkildə Böyüdü və Hal-hazırda Dünyanın Ən Populyar Programlama Dillərindən Biridir. Microsoft Platformunda Program           Təminatlari İnkişaf Etdirmək Üçün Dizayn Edilmiş Ümumi Məqsədli bir dildir ve Windows Üzərində İşləmək Üçün .NET Framework Tələb Edir.   C# - in Yaradilmasinda C ve C++ - dan İstifade Edilib və Buna Gorədə C#  C və C++ - in Hibrididir. .NET Framework Bir Çox Programlama   Dilini Dəstəkləsədə C# Sürətli Bir Şəkildə Ən Populyar OlanlardanBiri Halına Gəldi. C#  - Demək Olar ki  Hər Şey Yaratmaq Üçün           İstifade Olunur ama Özəlliylə windows Masaüstü Program Teminatlari və Oyunlar Yazmaq Üçcün Daha Yaxşıdır. C# - Həmçinin Web-Tətbiqlər   Yaratmaq Üçündə İstifade Olunur amma özəlliklə Mabil Tətbiqlər İnkişaf Etdirmək üçündə get-gede daha Populyar Hala Gəlmişdir.Xamarin     Kimi Cross-Platform alətlər(tool-lar) C# - da Yazılan Tətbiqləri Demək Olar ki Bütün Mabil Cihazlar-da İstifadə Olunmasını Təmin Edir.
+> C# 2000 - ci ildə "Andres Heilsberg" - tərəfindən Microsoft - da Java - ya Rəqib Olaraq İnkişaf Etdirilən müasir , sadə ümumi type-safe  ümumi məqsədlər üçün yaradılmış qrup şəklində çalışmaq üçün uyğun olan Obyekt Yönümlü Bir Programlaşdırma  Dilidir. Həmçinin C#, özündə  böyük əməliyyatlar ehtiva edən, özündə böyük məlumat daşıyan - ötürən, bir şirkətin virtual idarə edilməsi üçün lazım olan bir proqram(CRM) yazmaq üçün  hər şeyi özündə birləşdirən proqramlaşdırma dilidir.  C# real dünya obyektlərini daha aydın şəkildə virtual aləmdə tətbiq etmək üçün ən səmərəli dillərdən biridir. Yazılı proqramdan sonra kompilyator tərəfindən təsbit edilən siniflər və sintaksis səhvləri proqramçı tərəfindən ayrı-ayrı ekranda göstərilir və proqramçı bu xəta pəncərəsindəki səhvləri aşkar edərək asanlıqla düzəldə bilər. C# multi paradiqmalı proqramlaşdırma dilidir.Özündə imperative,deklarativ,functional,generic,OOP paradiqmaları cəmləşdirir. C# - Microsoftun Java Uzərində Dəyişiklik Etməsini İstəmədiyi Ücün Yaradıldı. C# - İlk Yaradildigi Gündən Bəri Sürətli Bir Şəkildə Böyüdü və Hal-hazırda Dünyanın Ən Populyar Programlama Dillərindən Biridir. Microsoft Platformunda Program  Təminatlari İnkişaf Etdirmək Üçün Dizayn Edilmiş Ümumi Məqsədli bir dildir ve Windows Üzərində İşləmək Üçün .NET Framework Tələb Edir. C# - in Yaradilmasinda C ve C++ - dan İstifade Edilib və Buna Gorədə C#  C və C++ - in Hibrididir. .NET Framework Bir Çox Programlama Dilini Dəstəkləsədə C# Sürətli Bir Şəkildə Ən Populyar OlanlardanBiri Halına Gəldi. C#  - Demək Olar ki  Hər Şey Yaratmaq Üçün İstifade Olunur ama Özəlliylə windows Masaüstü Program Teminatlari və Oyunlar Yazmaq Üçcün Daha Yaxşıdır. C# - Həmçinin Web-Tətbiqlər Yaratmaq Üçündə İstifade Olunur amma özəlliklə Mabil Tətbiqlər İnkişaf Etdirmək üçündə get-gede daha Populyar Hala Gəlmişdir.Xamarin  Kimi Cross-Platform alətlər(tool-lar) C# - da Yazılan Tətbiqləri Demək Olar ki Bütün Mabil Cihazlar-da İstifadə Olunmasını Təmin Edir.
 
 > C# - Günümüzdə Ən Papulyar Oyun Mühərriki olan Unity Oyun Mühərrikini İstifadə Edərək Oyunlar Yaratmaqı Təmin Edir. En Yaxşı Oyunların   3/1 - dən Çoxu Unity İlə Yaradıldı ve Unity Muhherikini İstifadəsi İlə Yaradılan Təqribən 770 milyon aktiv Oyun İstifadecisi Var. C# -   Bu Tətbiqləri Yaratmaq Üçün Populyar Bir Alətdir Programçı ve Programlamaya Yeni Başlayanlar Üçün-də Mükəmməl Bir Seçimdir.C# -         həmçinin Statik Olaraq Yazılmış Bir Dil-dir  və Bu Səbəblə Bir Təminata(exe) - Çevrilmədən Öncə Yoxlanilir. Bu Yeni Başlayanlar Üçün     Xüsusilə Praktik Ola Biləcəy Xətaları Tapmaqı Asanlaşdlrır. C# - Qarmaşıq Bir Dil-dir və Bu Dildə Master Olmaq Bəzi Sade Dillər         ilə(Pyton) Müqayisede Daha Çox Vaxt Alır. Bu O Demək-dir ki Programçının İrəli Səviyyəli Programlar Yazmaqi Üçün Daha Çox Kod           Öyrənməyi Lazımdır ve Bu Yeni Başlayanlar Üçün Sinir Bozucu Ola Bilər. Güclü Əsnək və Microsoft Tərəfindən Dəstəklənmiş Olması C# - ı   Movcud Olan Ən Yaxşı Programlama Dillərindən Biri Halına Gətirmişdir.Bu Gün C# - Ən Yaxşı Programlama Dilləri Arasında 4 - cü Sırada     Yer Alır ve Teqribi Developerlərin 31 faizi Bu Dili Müntəzəm Olaraq İsitfadə Edir. Həmçinin C# Stack-overflovda(Hansıki C# - ilə         Yaradıldi) 1.1 milyondan çox mövzu ilə 3-cü sırada yer alır. Bu Populyarlıq İnkişaf Etmiş İş Bazarına Çevrilir. Hər Ay 17000 - dən Çox   C# - işləri Elan Edilir və Ortalama 72000$ - dan çoc maaş - ilə. Sadəcə Birləşmiş Ştatlar-da Hər ay 92000$ - lıq Maaşla 6 mindən Çox     İş Elan Edilir.
 
-> vilaytt/ C #, proqram sahəsində ən çox istifadə olunan iki proqram dili olan C və C ++ qarşılıqlı əlaqələrindən yaranır. Ayrıca, C #, Java ilə çox oxşarlıqlara sahibdir. Ən əhəmiyyətli xüsusiyyət, .Net Framework platforması üçün tamamilə obyekt yönümlü bir proqram dilidir. Başqa sözlə, obyektlər sinifdə (yəni klasslarda) yazılmışdır. İnkişaf etmiş bir xüsusiyyəti də odur ki, DEBUGGER ayarı ilə səhv ehtimalları aradan qaldırılır. Yazılı proqramdan sonra kompilyator tərəfindən təsbit edilən siniflər və sintaksis səhvləri proqramçı tərəfindən ayrı-ayrı ekranda göstərilir və proqramçı bu xəta pəncərəsindəki səhvləri aşkar edərək asanlıqla düzəldə bilər.
-
-
->Səkinə tərəfindən : C# Anders Hejlsbergin liderliyi ilə hazırlanan yeni nəsil proqramlaşdırma dilidir.  .Net platforması altında işləyən proqramlardan ən çox istifadə olunanıdır. Bu əsasən onun çoxşaxəli istifadə oluna bilmə bacarığı,obyekt yönümlü və type-safe(tərcüməsi olan buyursun) olmasından irəli gəlir. Və bir çox izah davamında ;)
-
-
-> Suleyman/
-C# multi paradiqmalı proqramlaşdırma dilidir.Özündə imperative,deklarativ,functional,generic,OOP paradiqmaları cəmləşdirir.
-#wikipedia
-
+ 
 2. C# - ın özəlliklərini İzah Edin? ( Suleyman )
 
 > 1.C# - ı İstədiyiniz Editor-da Yaza Bilərsiniz
@@ -125,9 +109,7 @@ Buç class ların idarə edilmsi və onların başqa namespace lərdə istifadə
 > "readonly" keyword u const kimi yenə sabit dəyərlər yaratmaq üçün istifadə olunur. Fərqi ondan ibarətdir ki, const un sonradan dəyərini dəyişdirmək olmursa, "readonly" nin dəyərini dəyişdirmək mümkündür. Ancaq class daxilində bəyan edilə bilir. Const la bəyan edilən bir dəyərə ancaq class la müraciət etmək mümkündürsə readonly ilə bir property yə obyekt vasitəsilə müraciət etmək olur. Readonly nin dəyərini sonradan dəyişdirmək mümkündür, ancaq bu const da olmur.
 
 13 C# -da “static” açar sözünü izah edin ? ( Emin )
-
 14. What is the difference between “dispose” and “finalize” variables in C#?  ( Mustafa )
-
 15. How the exception handling is done in C#? ( Sekine )
 > C# da  exeption problemi yazılan kodda səhv yaranan zaman meydana çıxır və proq. ın cash olmasına səbəb olur. Bunu aradan qaldırmağın 3 üsulu var:
 Try - catch();
