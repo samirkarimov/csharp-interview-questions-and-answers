@@ -5,27 +5,16 @@
  - https://www.freecodecamp.org/
 
 1. C# nədir? (Cavidan)
-> Fazilabi---C# , 2000ci ildə Microsoft tərəfindən yaradılan və inkişaf etdirilən, formalaşdırılması və inkişafında  rəhbərliyini Anders Hejlberg-in etdiyi, .Net Framework platformasinda çalışan ,öyrənilməsi sadə, müasir, ümumi məqsədlər üçün  yaradılmış, qrup şəklində çalışmaq üçün uyğun olan, tamamilə obyekt yönümlü proqramlaşdırma dilidir.
 
-
-> mirzamin42 : C#, özündə  böyük əməliyyatlar ehtiva edən, özündə böyük məlumat daşıyan - ötürən, bir şirkətin virtual idarə edilməsi üçün lazım olan bir proqram(CRM) yazmaq üçün  hər şeyi özündə birləşdirən proqramlaşdırma dilidir. C# real dünya obyektlərini daha aydın şəkildə virtual aləmdə tətbiq etmək üçün ən səmərəli dillərdən biridir.
-
-
-
-
-> C# 2000 - ci ildə "Andres Heilsberg" - tərəfindən Microsoft - da Java - ya Rəqib Olaraq İnkişaf Etdirilən müasir Abyekt Yönümlü Bir     Programlama Dilidir. C# - Microsoftun Java Uzərində Dəyişiklik Etməsini İstəmədiyi Ücün Yaradıldı. C# - İlk Yaradildigi Gündən Bəri     Sürətli Bir Şəkildə Böyüdü və Hal-hazırda Dünyanın Ən Populyar Programlama Dillərindən Biridir. Microsoft Platformunda Program           Təminatlari İnkişaf Etdirmək Üçün Dizayn Edilmiş Ümumi Məqsədli bir dildir ve Windows Üzərində İşləmək Üçün .NET Framework Tələb Edir.   C# - in Yaradilmasinda C ve C++ - dan İstifade Edilib və Buna Gorədə C#  C və C++ - in Hibrididir. .NET Framework Bir Çox Programlama   Dilini Dəstəkləsədə C# Sürətli Bir Şəkildə Ən Populyar OlanlardanBiri Halına Gəldi. C#  - Demək Olar ki  Hər Şey Yaratmaq Üçün           İstifade Olunur ama Özəlliylə windows Masaüstü Program Teminatlari və Oyunlar Yazmaq Üçcün Daha Yaxşıdır. C# - Həmçinin Web-Tətbiqlər   Yaratmaq Üçündə İstifade Olunur amma özəlliklə Mabil Tətbiqlər İnkişaf Etdirmək üçündə get-gede daha Populyar Hala Gəlmişdir.Xamarin     Kimi Cross-Platform alətlər(tool-lar) C# - da Yazılan Tətbiqləri Demək Olar ki Bütün Mabil Cihazlar-da İstifadə Olunmasını Təmin Edir.
+> C# 2000 - ci ildə "Andres Heilsberg" - tərəfindən Microsoft - da Java - ya Rəqib Olaraq İnkişaf Etdirilən , sadə müasir , ümumi məqsədlər üçün  yaradılmış, Obyekt Yönümlü Bir Programlama Dilidir.  C#, özündə  böyük əməliyyatlar ehtiva edən, özündə böyük məlumat daşıyan - ötürən, bir şirkətin virtual idarə edilməsi üçün lazım olan bir proqram(CRM) yazmaq üçün  hər şeyi özündə birləşdirən proqramlaşdırma dilidir. C# real dünya obyektlərini daha aydın şəkildə virtual aləmdə tətbiq etmək üçün ən səmərəli dillərdən biridir.C# multi paradiqmalı proqramlaşdırma dilidir.Özündə imperative,deklarativ,functional,generic,OOP paradiqmaları cəmləşdirir. İnkişaf etmiş bir xüsusiyyəti də odur ki, DEBUGGER ayarı ilə səhv ehtimalları aradan qaldırılır. Yazılı proqramdan sonra kompilyator tərəfindən təsbit edilən siniflər və sintaksis səhvləri proqramçı tərəfindən ayrı-ayrı ekranda göstərilir və proqramçı bu xəta pəncərəsindəki səhvləri aşkar edərək asanlıqla düzəldə bilər. C# - Microsoftun Java Uzərində Dəyişiklik Etməsini İstəmədiyi Ücün Yaradıldı. C# - İlk Yaradildigi Gündən Bəri Sürətli Bir Şəkildə Böyüdü və Hal-hazırda Dünyanın Ən Populyar Programlama Dillərindən Biridir. Microsoft Platformunda Program Təminatlari İnkişaf Etdirmək Üçün Dizayn Edilmiş Ümumi Məqsədli bir dildir ve Windows Üzərində İşləmək Üçün .NET Framework Tələb Edir.C# - in Yaradilmasinda C ve C++ - dan İstifade Edilib və Buna Gorədə C#  C və C++ - in Hibrididir. .NET Framework Bir Çox Programlama Dilini Dəstəkləsədə C# Sürətli Bir Şəkildə Ən Populyar OlanlardanBiri Halına Gəldi. C#  - Demək Olar ki  Hər Şey Yaratmaq Üçün İstifade Olunur ama Özəlliylə windows Masaüstü Program Teminatlari və Oyunlar Yazmaq Üçcün Daha Yaxşıdır. C# - Həmçinin Web-Tətbiqlər Yaratmaq Üçündə İstifade Olunur amma özəlliklə Mabil Tətbiqlər İnkişaf Etdirmək üçündə get-gede daha Populyar Hala Gəlmişdir.Xamarin Kimi Cross-Platform alətlər(tool-lar) C# - da Yazılan Tətbiqləri Demək Olar ki Bütün Mabil Cihazlar-da İstifadə Olunmasını Təmin Edir.
 
 > C# - Günümüzdə Ən Papulyar Oyun Mühərriki olan Unity Oyun Mühərrikini İstifadə Edərək Oyunlar Yaratmaqı Təmin Edir. En Yaxşı Oyunların   3/1 - dən Çoxu Unity İlə Yaradıldı ve Unity Muhherikini İstifadəsi İlə Yaradılan Təqribən 770 milyon aktiv Oyun İstifadecisi Var. C# -   Bu Tətbiqləri Yaratmaq Üçün Populyar Bir Alətdir Programçı ve Programlamaya Yeni Başlayanlar Üçün-də Mükəmməl Bir Seçimdir.C# -         həmçinin Statik Olaraq Yazılmış Bir Dil-dir  və Bu Səbəblə Bir Təminata(exe) - Çevrilmədən Öncə Yoxlanilir. Bu Yeni Başlayanlar Üçün     Xüsusilə Praktik Ola Biləcəy Xətaları Tapmaqı Asanlaşdlrır. C# - Qarmaşıq Bir Dil-dir və Bu Dildə Master Olmaq Bəzi Sade Dillər         ilə(Pyton) Müqayisede Daha Çox Vaxt Alır. Bu O Demək-dir ki Programçının İrəli Səviyyəli Programlar Yazmaqi Üçün Daha Çox Kod           Öyrənməyi Lazımdır ve Bu Yeni Başlayanlar Üçün Sinir Bozucu Ola Bilər. Güclü Əsnək və Microsoft Tərəfindən Dəstəklənmiş Olması C# - ı   Movcud Olan Ən Yaxşı Programlama Dillərindən Biri Halına Gətirmişdir.Bu Gün C# - Ən Yaxşı Programlama Dilləri Arasında 4 - cü Sırada     Yer Alır ve Teqribi Developerlərin 31 faizi Bu Dili Müntəzəm Olaraq İsitfadə Edir. Həmçinin C# Stack-overflovda(Hansıki C# - ilə         Yaradıldi) 1.1 milyondan çox mövzu ilə 3-cü sırada yer alır. Bu Populyarlıq İnkişaf Etmiş İş Bazarına Çevrilir. Hər Ay 17000 - dən Çox   C# - işləri Elan Edilir və Ortalama 72000$ - dan çoc maaş - ilə. Sadəcə Birləşmiş Ştatlar-da Hər ay 92000$ - lıq Maaşla 6 mindən Çox     İş Elan Edilir.
 
-> vilaytt/ C #, proqram sahəsində ən çox istifadə olunan iki proqram dili olan C və C ++ qarşılıqlı əlaqələrindən yaranır. Ayrıca, C #, Java ilə çox oxşarlıqlara sahibdir. Ən əhəmiyyətli xüsusiyyət, .Net Framework platforması üçün tamamilə obyekt yönümlü bir proqram dilidir. Başqa sözlə, obyektlər sinifdə (yəni klasslarda) yazılmışdır. İnkişaf etmiş bir xüsusiyyəti də odur ki, DEBUGGER ayarı ilə səhv ehtimalları aradan qaldırılır. Yazılı proqramdan sonra kompilyator tərəfindən təsbit edilən siniflər və sintaksis səhvləri proqramçı tərəfindən ayrı-ayrı ekranda göstərilir və proqramçı bu xəta pəncərəsindəki səhvləri aşkar edərək asanlıqla düzəldə bilər.
 
 
->Səkinə tərəfindən : C# Anders Hejlsbergin liderliyi ilə hazırlanan yeni nəsil proqramlaşdırma dilidir.  .Net platforması altında işləyən proqramlardan ən çox istifadə olunanıdır. Bu əsasən onun çoxşaxəli istifadə oluna bilmə bacarığı,obyekt yönümlü və type-safe(tərcüməsi olan buyursun) olmasından irəli gəlir. Və bir çox izah davamında ;)
 
 
-> Suleyman/
-C# multi paradiqmalı proqramlaşdırma dilidir.Özündə imperative,deklarativ,functional,generic,OOP paradiqmaları cəmləşdirir.
-#wikipedia
+
 
 2. C# - ın özəlliklərini İzah Edin? ( Suleyman )
 
@@ -103,8 +92,17 @@ Bir Array yalanız " using System; " namespace ilə istfadə edildiyi halda Arra
 Directive kimi :
 C#  da "using" keyvord u fərqli namespace lərin müxtəlif classlarını və methodlarını istifadə etmək üçün istifadə olunur.
 Statement kimi :
-Məllim bu SQL ə aiddir, amma biz onu keçməmişik deyə çox baxmadım 2-ci istifadə yerinə
 
+> "using" - keywordu istifade etdiyiniz siniflərdə avtomatik olaraq dispose() metodunu işə salır. Yəni işimiz Bitdikdən sonra ObjectName.Dispose() yazmaq lazım deyil. "using" - bunu bizim Yerimizə eliyir.(bu temanı başa düşmək üçün dispose() metodunu bilmək lazımdır sual - 14 - e bax)
+
+    using(işlənəcəy kodlar)
+    {
+      Burda yazılan kodlar avtomatik olaraq Dispose() - əməliyyatına məruz qalır. 
+      Burda yazılan kodların ömrü burda bitir.
+    }
+
+
+ 
 10. Explain namespaces in C#?
 > "namespace" keyvvord u c# da 2cür istifadə ediə bili :
 1cisi : Öz lahiyələrimizi yazan zaman çoxlu class istifdə etdiyimiz zaman.
@@ -206,6 +204,97 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 61. Write a sample code to write the contents to text file in C#?
 62. What you mean by boxing and unboxing in C#?
 63. Explain Partial Class in C#?
+
+> Partial Sinif Qavramı C# 2.0  və Visual Studio 2005 - ilə gələn özəllikdir. Partial Sinif Qavramı .NET Framevork - un 2.0 verisyaında   Dəstəklənir. Əgər İşlətdiyiniz Versiya 1.0 və ya 1.1 - dirsə Partial Sinif Qavramı İşləməyə Bilər.
+
+> Böyük Lahiyələr Üzərində İşlədəyimiz Zaman Sinif-ıər zamanla oxunması çətin hala gələbiləcək kod sətirləeri ilə dolur. Partial Sinif     Bizə Bir Sinifi birdən çox sinifı(hissəyə) bölməyimizə icazə verir. Partial Sinifi qurucuları filedları metodlaı ayrı-ayrı               yaratmaqımızı təmin edir. Fiziki Olaraq birdən çox parça ilə yaranan partial siniflərç işləmə anında tək bir sinif olaraq bütün         elementləri içərisində birləşdirir. Partial sinif ilə fiziki olaraq parça siniflərin birləşə bilməsi üçün sinif adları eyni             olmalıdır.İndi İsə bir sinifin içərisində olan (quruculari fieldlri metodları) partial sinif ilə yazaq və birləşmiş halını görək.
+
+    public partial class PersonPartial  
+    {  
+        public PersonPartial()  
+        {  
+
+        }  
+  
+        public PersonPartial(PersonPartial person)  
+        {  
+            PersonelEkle(personel);  
+        }  
+   } 
+   
+   
+    public partial class PersonPartial  
+    {  
+       private string name;  
+       private string surname;  
+       private int age;  
+       private List<PersonPartial> persons = new List<PersonPartial>();  
+    }  
+    
+    
+    
+       public partial class PersonPartial  
+       {  
+          public string Name  
+          {  
+              get { return name; }  
+              set { adi = value; }  
+          }  
+  
+          public string SurName  
+          {  
+              get { return surname; }  
+              set { soyadi = value; }  
+          }  
+  
+          public int Age  
+          {  
+              get { return age; }  
+              set { yas = value; }  
+          }  
+  
+          public List<PersonPartial> Persons  
+          {  
+              get  
+              {  
+                  return persons;  
+              }  
+          }  
+  
+          public PersonPartial personalSave  
+          {  
+              set   
+              {  
+                  persons.Add(value);  
+              }  
+          }  
+     }
+     
+          public partial class Personeller  
+          {  
+              public void PersonelEkle(Personeller pers)  
+              {  
+                  PersonelKayit = pers;  
+              }  
+          }
+          
+          
+          
+          static void Main(string[] args)
+        {
+            Person pers = new Person();
+            pers.Name = "Cavidan";
+            pers.SurName = "Akberov";
+            pers.Age = 17;
+            pers.AddPerson(pers);
+            Person personSave;
+            Console.WriteLine(pers.Name);
+            
+        }
+ 
+
+> Gördüyünüz kimi (main) metodun-da çağırdığımızda 4 parçadan yaranan Sinifimiz Çağırılma anında tək parça olaraq                         görüntülənəcktir.Partial Sinifi Qarmaşıq Siniflər-də Olduqca İstifade Olunandır. Qarmaşıq Siniflərdə Olan kodları partial sinifi ilə     ayıra bilərik və bu bizə koda daha çox hakim olmağımıza kömək edəcək.
+
 64. Explain Anonymous type in C#?
 65. Name the compiler of C#?
 66. Explain the types of unit test cases?
@@ -396,20 +485,34 @@ Hər Obyekt Yaradanda Ferqli Deyerler Teyin Etmek Mümkün Deyil. Varsayılan Qu
 
    
      public class Employee 
-    {
-       public string Name
-       public int Age
-       
-       public Employee(Employee emp)
-       {
-         this.Name = emp.Name;
-         this.Age = emp.Age;
-       }
+     {
+          public string Name
+          public int Age
+
+          public Employee(Employee emp)
+          {
+            this.Name = emp.Name;
+            this.Age = emp.Age;
+          }
     }
     
     
 > 4.4)Qurucu Statik olaraq təyin olunarsa  Bütün Obyektlər Üçün Bir dəfə Çağırılır və Sinifin ilk Obyekti Yaradilan Anda işə düşür         Statik Bir Qurucu Sinifin Statik Olan Üzvlərini Başlatmaq və Sadəcə Bir dəfə run olunacaq kodu İşə salmaq üçün İstifade Olunur.
 
 98. What is a Destructor in C# ? 
+ 
+  >Destructor(yıxıcı metodlar) Constructor(qurucu metodlar) - ın tam tersidir. Referans Tipli Dəyişənlər Heap Üzərində Yaradılırlar və      Yaradıldıqca RAM - da yer tutrlar buda yaddaşa təsir edir. Yeni Obyektlərən Yaradılması Üçün Heap Sahəsinin Təmizlənməsi Lazımdır.      Yaradılan Bir Obyektin Heap - dan Silinmesinden əvvəl işə düşən metodlar-a destructor(yıxıcı) metodlar deyilir. .NET Framevork          işərisindı GC(Grabge Collector) Heap-da Olan Ancaq Referans Edilməyən Obyektləri artıq bu obyekt istifade olunmur deye fikirləşir və    heap-dan silir. Bu Əməliyyat belə Yerinə Yetirilir. GC(Garbage Collector) - un Bir Siyahısı var və GC() bu siyahıda refernası olmayan    obyektləri tapır və silir. Ama Biz GC(Garbage Collector)-un Bu Prosesi nə vaxt yerinə yetirdiyini bilmirik. Hətta Bəzən GC(Garbage      Collector) - işə düşmədən Program Bağlana Bilər və Referansı Olmayan Obyektlər Heap Üzərində Qalacaq. Tamda burda destructor()          köməyimizə çatır. Ama Bu Metod Çoxda İşlənən metod deyil. Bəzi irəli səviyyəli şərtlər tələb edir(hər ağzına gələn yerə destructor()    atma demək istiyrəm). İlk öncə destructor() metodların təyin edilmsinə baxaq.
+  
+    ~sinif-adı() {
+
+     }
+     
+> Sintaks Cəhətdən constructor(qurucu metodlara) oxşayırlar ama hər hansı bir Access Modifieri və return(geri dönüş) dəyəri olmur.         Başında isə (~) işarəsi olur.    
+
 99. What is CLR in c# ?
+
+> Bu Mövzu genişdi sabaha hell edib edit eliyərəm
+
 100. What is Garbage Collecter in C#?
+
+> .NET Framevork          işərisindı GC(Grabge Collector) Heap-da Olan Ancaq Referans Edilməyən Obyektləri artıq bu obyekt istifade olunmur deye fikirləşir və    heap-dan silir. Bu Əməliyyat belə Yerinə Yetirilir. GC(Garbage Collector) - un Bir Siyahısı var və GC() bu siyahıda refernası olmayan    obyektləri tapır və silir.
