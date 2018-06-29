@@ -191,6 +191,7 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 48. Can we use delegates for asynchronous method calls in C#?
 49. What are the uses of delegates in C#?
 50. What is Nullable Types in C#?
+> Bəzən təyin olunan dəyişənə nə dəyər mənimsədəcəyimizi bilmiriksə və ya sonradan mənimsədəcəyiksə "null" dəyərindən istifadə edirik. Reference type dəyişənlərdə bu problem yaratmır, lakin value typelarda bunu etmək üçün ? işarəsindən istifadə olunur və null dəyəri ötürə bilirik. 
 51. Why to use “Nullable Coalescing Operator” (??) in C#?
 52. What is the difference between “as” and “is” operators in C#?
 53. What is the difference between CType and Directcast in C#?
@@ -200,6 +201,7 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 57. How to check whether hash table contains specific key in C#?
 58. What is enum in C#?
 59. Which are the loop types available in C#?
+> C#-da mümkün dövr növləri: "for", "foreach", "while" və "while do". 
 60. What is the difference between “continue” and “break” statements in C#?
 61. Write a sample code to write the contents to text file in C#?
 62. What you mean by boxing and unboxing in C#?
