@@ -183,16 +183,100 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 40. Explain circular reference in C#?
 41. List out some of the exceptions in C#?
 42. Explain Generics in C#?
+
+ > 
+
 43. Explain object pool in C#?
 44. What you mean by delegate in C#?
+
+<CavCav
+
+ > C# - da "delegat" - lar  "c və c++" - dakı "pointers function" - lara bənzəyir. "delegate" hansısa bir metoda baş vuran referans tip dəyişəndir(burda ne dedim ozumde bilmedim).Delegat-lar xüsusi ilə "event və call-back" metodları tətbiq etmək üçün istifadə olunur.Bütün "delegate"-lar "System.Delegate" - sinifindən "derive"(əmələ gəlirlər) - olunurlar. Delegate-lər yalnız özü ilə "eyni xüsusiyyətlərə" sahib olan metodlara baş vura bilərlər. Məsələn 
+ 
+    public delegate int MyDelegate(string s)
+    
+>Yuxardaki Delegatemiz "string parametreli  və int return(dönüş) tipi olan" hər bir metoda referans(baş vura bilər) - ede bilər.Delegate-lər "delegate" - keyüordu vasitəsi ilə təyin olunurlar.Delegate - nin Sintaksisi Belədir.
+
+    <lazım olan yerdə access modifieri yazmaq olar> delegate <return tipi> <delegate-nin adı> <istəyə bağlı olaraq delegate-nin parameteri>
+    
+    public delegate string FirstDelegate(istəyə bagli olaraq)
+
+>Delegate - başlatmaq(initalize) - bir "delegate" - təyin olunduqdan sonra təyin olunan delegatinin obyekti(instance) "new" - keywordu - ilə yaradılmalıdı və spesifik(müəyyən) metod ilə bağlantılı(əlaqəli) olmalıdır.
+
+
+>Delegate-lər mövzusu üçün əlavə-lər - Delegate .NET - in təməl(base) struktur-larından biridir. "Delegate"  delegate-lər yaratmaq üçün istifadə olunan bir sinifdir bütün delegate-lər bu sinfdən yaranırlar. Delegtae-nin xüsusiyyətləri ilə uyğunlaşan hər bir metod hansıki "delegate" - ilə  "eyni return" - tipi və parametrlərdən ibarətdir bu metodlar delegate ilə işlənə bilərlər.
+
+>Delegate Tipləri
+
+>1.Singlecast Delegate
+>2.Multicast Delegate
+
+>"delegate" - in bir sinif olduğunu demişdik. Hər bir "delegate" təyin edildiyi anda .NET "class library" - nin təməl(base) "delegate" sinifindən miras alır. Bu sinif "System.Delegate" və ya "SystemşMultiCastDelegate" - siniflərindən biri ola bilər.
+
+>Single Cast - "delegate" - lər bir dəfədə yalnız "tək" bir metoda baş vurur(referans). Bu tip Delegate-lər "System.Delegate" - sinifindən "derive"(əmələ gəlir) olunurlar.
+
+>Multi Cast - "delegate" - lər birdən çox metod ilə təmin olundugları halda bu(birdən çox metoda referans etdiklərində bu) "delegate" - lər "Multi-Cast"
+-delegate -lər olaraq  bilinirlər və "System.MultiCastDelegate" - sinifindən "derive"(əmələ gəlir) olunurlar.
+
+ Delegate-dən obyekt yaratmaq(initialzie etmek)
+    
+    public delegate void DelegateExample();
+    
+    DelegateExample d1 = new DelegateExample();
+
+   
 45. What are the types of delegates in C#?
+ 
+ <CavCav
+ 
+ >Single Cast
+ >Multi Cast
+ 
 46. What are the three types of Generic delegates in C#?
 47. What are the differences between events and delegates in C#?
 48. Can we use delegates for asynchronous method calls in C#?
 49. What are the uses of delegates in C#?
 50. What is Nullable Types in C#?
+
+<CavCav
+
+ >C# - da "Dəyər(value)" - tiplərinə "null" - dəyər ata bilmərik. Məsələn
+   
+    int i = "null";
+    
+>Yuxardakı təyinat bizə "error" - verəcək "compile time error".
+
+>C# 2.0 bizə "nullable" - tiplər təqdim edir. Bu "nullable" tiplər "null" - dəyərini "dəyər(value)" - tiplərə təyin etməyimizə icazə verir. "nullable" - tipləri Nullable<T>(T - burada tip demekdir). Məsələn
+ 
+    Nullable<int>a = null;
+
+>"Null" - tipindən biri ç təməl dəyər tipi üçün düzgün dəyər aralığını və boş bir dəyər göstərə bilər.(demək istəyir ki nullable təyin olunan dəyər həm null tipində həmdə öz custom tipi nədisə o tipdə dəyər götürə bilər).Nullable tiplər "System.Nullable<T>"  "structun" - nun obyektidir(instance)(örnəyidir). Nullable dəyər təyinatı üçün qısa yol.
+ 
+    Nullable<T>a = 5; bunun qısa yolu
+    int? a = 5;
+
+
+
 > Bəzən təyin olunan dəyişənə nə dəyər mənimsədəcəyimizi bilmiriksə və ya sonradan mənimsədəcəyiksə "null" dəyərindən istifadə edirik. Reference type dəyişənlərdə bu problem yaratmır, lakin value typelarda bunu etmək üçün ? işarəsindən istifadə olunur və null dəyəri ötürə bilirik. 
 51. Why to use “Nullable Coalescing Operator” (??) in C#?
+
+> "null coalescing" əməliyyatı "??" 2 sual işarəsi istifadə edərək "null" dəyəri saxlayan dəyişənə "custom" dəyər təyin etmək üçün istifadə "cool" bir yoldur. Məsələn
+
+
+    string message = null;
+    string result = message ?? "Hi";
+    Console.WriteLine(result);//"Hi"
+  
+>"message" - dəyişəninin dəyəri "null" olduğu üçün  onun dəyərini "Hello" - ilə dəyişə bilirik.
+
+>Amma dəyişənin dəyəri "null" - dəyəri olmazsa "null coalescing" - əməliyyatının yerinə yetirilməsinə baxmayaraq  dəyişənin dəyəri nədirsə o göstəriləcək. Məsələn
+
+    string message = "Hello";
+    string result = messsage ??  "Hi";
+     Console.WriteLine(result); //"Hello"
+    
+Yuxardaki Nümunede "message" string dəyər saxladıgı üçün(null saxlamadığı üçün) Dəyişənin öz dəyəri göstəriləcəkdir.   
+
 52. What is the difference between “as” and “is” operators in C#?
 53. What is the difference between CType and Directcast in C#?
 54. Is C# code is unmanaged or managed code?
