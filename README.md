@@ -319,6 +319,7 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 81. What is Reference Type in C# ?
 82. Define Property in C# ?
 83. Explain Overloading in C# ?
+> Overloading-in bir neçə növü mövcuddur, ən geniş istifadə olunanı method overloading dir. Bir neçə metod eyni adlı ola bilər, lakin onların xüsusuiyyəti və qaytaracağı nəticələr fərqli olacaqdır. Proqram işlədikdə bu metodlardan biri işlədilirsə hansı olduğunu təyin etmək üçün parametrlərə baxılır. Bu metodlara ötürülən parametrlərin sayı və tipləri fərqlidir.
 84. What is Constructor Overloading in C# .net ?
 85. What is Function Overloading in C# .net ?
 86. What is Operator Overloading in C# .net ?
