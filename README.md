@@ -193,6 +193,7 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 50. What is Nullable Types in C#?
 > Bəzən təyin olunan dəyişənə nə dəyər mənimsədəcəyimizi bilmiriksə və ya sonradan mənimsədəcəyiksə "null" dəyərindən istifadə edirik. Reference type dəyişənlərdə bu problem yaratmır, lakin value typelarda bunu etmək üçün ? işarəsindən istifadə olunur və null dəyəri ötürə bilirik. 
 51. Why to use “Nullable Coalescing Operator” (??) in C#?
+> Bu operatoun istifadəsi bir dəyişənin dəyərinin "null" olub olmamasını yoxlamaq və nəticəyə uyğun olaraq başqa bir dəyişənə dəyər təyin etməkdir. Tutaq ki, "a" və "b" dəyişənimiz var və a-nın dəyəri "null"-dur. "??" operatorundan istifadə etdikdə əgər a-nın dəyəri "null" deyilsə bu dəyəri b-yə mənimsədir, "null"-dursa b-ni qaytarır. 
 52. What is the difference between “as” and “is” operators in C#?
 53. What is the difference between CType and Directcast in C#?
 54. Is C# code is unmanaged or managed code?
