@@ -125,8 +125,8 @@ Buç class ların idarə edilmsi və onların başqa namespace lərdə istifadə
 12. What is the difference between “constant” and “readonly” variables in C#? ( Emin )
 > "readonly" keyword u const kimi yenə sabit dəyərlər yaratmaq üçün istifadə olunur. Fərqi ondan ibarətdir ki, const un sonradan dəyərini dəyişdirmək olmursa, "readonly" nin dəyərini dəyişdirmək mümkündür. Ancaq class daxilində bəyan edilə bilir. Const la bəyan edilən bir dəyərə ancaq class la müraciət etmək mümkündürsə readonly ilə bir property yə obyekt vasitəsilə müraciət etmək olur. Readonly nin dəyərini sonradan dəyişdirmək mümkündür, ancaq bu const da olmur.
 
-13 C# -da “static” açar sözünü izah edin ? ( Emin )
-14. What is the difference between “dispose” and “finalize” variables in C#?( Mustafa ) 
+13. C# -da “static” açar sözünü izah edin ? ( Emin )
+14. What is the difference between “dispose” and “finalize” variables in C#?( Mustafa )
 15. How the exception handling is done in C#? ( Sekine )
 > C# da  exeption problemi yazılan kodda səhv yaranan zaman meydana çıxır və proq. ın cash olmasına səbəb olur. Bunu aradan qaldırmağın 3 üsulu var:
 Try - catch();
