@@ -207,7 +207,7 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 60. What is the difference between “continue” and “break” statements in C#? ( Mustafa )
 61. Write a sample code to write the contents to text file in C#? ( Emin )
 62. What you mean by boxing and unboxing in C#? ( Suleyman )
-63. Explain Partial Class in C#?
+63. Explain Partial Class in C#? ( Cavidan )
 
 > Partial Sinif Qavramı C# 2.0  və Visual Studio 2005 - ilə gələn özəllikdir. Partial Sinif Qavramı .NET Framevork - un 2.0 verisyaında   Dəstəklənir. Əgər İşlətdiyiniz Versiya 1.0 və ya 1.1 - dirsə Partial Sinif Qavramı İşləməyə Bilər.
 
@@ -301,22 +301,22 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 
 64. Explain Anonymous type in C#? (Mirzamin)
 > Anonymous type C# da olmayan, təyin olunan zaman yaradılan xüsusi bir növdür. Yəni biz hər hansı bir class tipində bir obyect yaradıb run etdiyimiz zaman, yazdığımız kod run-time prosesinə keçməzdən əvvəl compiler bu obyektin təyin olunduğu class ı yoxluyur və obyektin həqiqətən o class növündə olub olmadığını yoxladıqdan sonra proses run-time hissəsinə keçir. Ancaq bu proses Anonymous type larda bir qədər fərqlidir. Bir Anonymous type təyin olunan zaman compiler bu obyektin təyin olunduğu class ı görmədiyi üçün compiler ram yaddaşda bu proses üçün xüsusi bir növ yaradır. Yaradılacaq Anonymous obyektin tipi də həmin yaradılan növdə olacaq. Məs:  var anonymType = new {firstElement = "Mirzamin", secondElement = 22, thirdElement = true}; Bu tipli obyekt üçün Sistem də yaradaılan növ bu cür olacaq: <>f__AnonymousType0'3[System.String,System.Int32,System.Boolean] . Anonymous type obyektlərın adi class tipli obyektlərdən fərqi ondan ibarətdir ki, təyin olunan zaman içindəki property ləri sadəcə oxumaq olur, dəyişdirmək olmur. Nəticədə Anonymous type lar da bir class dırlar, ancaq bu class başqa class lardan yox birbaşa Object class ından miras alır və onun metodlarını istifadə edir. Anonymous type lardan təkcə obyekt yaratmaq üçün yox, array yaratmaq üçün də istifadə olunur. Məs: var anonymArray = new[] { name = "Mirzamin", age=  = 22 }; Bu tipli array ArrayList lərə bənzəsə də fərqli xüsusiyyəti ondan ibarətdir ki, ArrayList lərin elementlərini dəyişmək mümkündür, amma Anonymous type larda mümkün deyil. Adi array dən də fəqri ondan ibarətdir ki, adi array in istifadə etdiyi metodları demək olar ki, istifadə etmir.
-65. Name the compiler of C#?
-66. Explain the types of unit test cases?
-67. Explain Copy constructor in C#?
-68. Explain Static constructor in C#?
-69. Which string method is used for concatenation of two strings in c#?
-70. Explain Indexers in C#?
-71. What are the collection types can be used in C#?
-72. Explain Attributes in C#?
-73. List out the pre defined attributes in C#?
-74. What is Thread in C#?
-75. List out the states of a thread in C#?
-76. Explain the methods and properties of Thread class in C#?
-77. What is a class ?
-78. What is an Object?
-79. What are the Access Modifiers in C# ?
-80. Explain Static Members in C# ?
+65. Name the compiler of C#? ( Vilayət )
+66. Explain the types of unit test cases? ( Zöhralı )
+67. Explain Copy constructor in C#? ( Nurlan )
+68. Explain Static constructor in C#? ( Nurlan )
+69. Which string method is used for concatenation of two strings in c#? ( Zöhralı )
+70. Explain Indexers in C#? ( Zöhralı )
+71. What are the collection types can be used in C#? ( Səkinə )
+72. Explain Attributes in C#? ( Fazil )
+73. List out the pre defined attributes in C#? ( Nurlan )
+74. What is Thread in C#? ( Vilayət )
+75. List out the states of a thread in C#? ( Vilayət )
+76. Explain the methods and properties of Thread class in C#? ( Vilayət )
+77. What is a class ? ( Vilayət )
+78. What is an Object? ( Vilayət )
+79. What are the Access Modifiers in C# ? ( Fazil )
+80. Explain Static Members in C# ? ( Emin )
 81. What is Reference Type in C# ?
 82. Define Property in C# ?
 83. Explain Overloading in C# ?
