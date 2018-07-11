@@ -317,24 +317,24 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 78. What is an Object? ( Vilayət )
 79. What are the Access Modifiers in C# ? ( Fazil )
 80. Explain Static Members in C# ? ( Emin )
-81. What is Reference Type in C# ?
-82. Define Property in C# ?
-83. Explain Overloading in C# ?
+81. What is Reference Type in C# ? ( Oktay )
+82. Define Property in C# ? ( Oktay )
+83. Explain Overloading in C# ? ( Mustafa )
 > Overloading-in bir neçə növü mövcuddur, ən geniş istifadə olunanı method overloading dir. Bir neçə metod eyni adlı ola bilər, lakin onların xüsusuiyyəti və qaytaracağı nəticələr fərqli olacaqdır. Proqram işlədikdə bu metodlardan biri işlədilirsə hansı olduğunu təyin etmək üçün parametrlərə baxılır. Bu metodlara ötürülən parametrlərin sayı və tipləri fərqlidir.
-84. What is Constructor Overloading in C# .net ?
-85. What is Function Overloading in C# .net ?
-86. What is Operator Overloading in C# .net ?
-87. What is Data Encapsulation ?
-88. Explain Inheritance in C# ?
-89. Can Multiple Inheritance implemented in C# ?
-90. What is Polymorphism in C# ?
-91. Explain the use of Virtual Keyword in C# ?
-92. What is overriding in c# ?
+84. What is Constructor Overloading in C# .net ? ( Süleyman)
+85. What is Function Overloading in C# .net ? ( Elvin )
+86. What is Operator Overloading in C# .net ? ( Naib )
+87. What is Data Encapsulation ? ( Vilayət )
+88. Explain Inheritance in C# ? ( Fazil )
+89. Can Multiple Inheritance implemented in C# ? ( Emin )
+90. What is Polymorphism in C# ? ( Zöhralı )
+91. Explain the use of Virtual Keyword in C# ? ( Nurlan )
+92. What is overriding in c# ? ( Nurlan )
 
 > Override miras yolu ilə təməl sinifin referansını istifadə edərək fərqli siniflərə aid metodları çağırmağımıza icazə verən bir xüsusiyyətdir.C# - bizə (override) əməliyyatını həyata keçirmək üçün 2 keyüord verir. (virtual və override).
 Bir Metod yalnız (virtual) keyvordu ilə təyin olundugu halda biz miras alınmış sinifdə onu (override) - edə bilərik.(override) base clasda olan virtual metodu (override) - edir. Override Ozəlliyi Programçılara Təməl Sinifdə (virtual) memberi miras almış sinifdə yenidən tətbiq etməyə icazə verir. Override miras alan sinifdə dəyişilməyə ehtiyyacı olan (metod property indexer və ya event) - lər ilə işlənə bilər. override xüsusiyyəti C# - da polymoprhism qavramını tətbiq etmək üçün dizayn edilmişdir.
 
-93. What is Method Hiding in C# 
+93. What is Method Hiding in C# ? ( Nurlan )
 
 > Derived Sinif İçərisində təməl(base) Sinifə aid bir metodu (override) etmeden təkrar Tanimlasanız base(temel) sinifdəki halı qorunacaqdır. Bu Hala Metod Hiding Deyilir.
 
@@ -405,7 +405,7 @@ Bir Metod yalnız (virtual) keyvordu ilə təyin olundugu halda biz miras alınm
     
 Bele Daha Düzgündür Artıq Base(təməl) Sinifdəki Metod Gizləndi. 
 
-94. What is Abstract Class in C#?
+94. What is Abstract Class in C#? ( Naib )
 
 > Abstract Siniflər .NET Tərəfindən təmin edilən təməl davranışlardan biridir. Ümumi olaraq yalnız təməl Sinifləri təmsil edən və hər hansı birinin bu Siniflərdən Obyekt yaratmasını istəmədiyimiz siniflər yaratmaq istəyə bilərsiz. c# - da (abstract) istifade ederek Astract Sinifləri Tətbiq edə Bilərik. Abstrackt sinifin mənası bu sinif - də obyekt yaradıla bilməz ama miras alına bilər.
 
@@ -439,12 +439,12 @@ Bele Daha Düzgündür Artıq Base(təməl) Sinifdəki Metod Gizləndi.
 > 4.Abstract Sinifin (Access Modifieri) həm Abstract Sinifdə həmdə ondan miras almış sinifdədə eyni olmalıdır
 > 5.Abstract metodun (virtual) keyvordu olmur. Çünki Abstract metod onsuzda virtual olur.
 
-95. What is Sealed Classes in c# ?
+95. What is Sealed Classes in c# ? ( Mirzamin )
 
 > Sealed Siniflər Obyekt Yönümlü Programlaşdırmanın inheritance(miras) xüsusiyyətini ləğv eiliyir. Sealed Sinifinin İxtira olunmasının məqsədi odur ki biz bu sinifə deyirkki sənin genişləndirlməyə Ehtiyyacın Yoxdur. Sən miras ala Bilməzsən
 
-96. What is an Interface in C# ?
-97. What is a Constructor in C# ?
+96. What is an Interface in C# ? ( Zöhralı )
+97. What is a Constructor in C# ? ( Fazil )
 
 > Qurucular Xüsusi Metodlardır və Sinifdən örnəy(abyekt) yaratdıgımız anda işə düşürlər.Qurucuların Əsas Məqsədi Sinifin Örnəyi Yaranan Anda Sinifdə Olan (private) gizli field-lari Başlatmaqdır. Əgər Biz Özümüz Qurucu Metod Yazmasaq (Compiler) Avtomatik Olaraq Default Qurucu Metodu İşə Salacaq. Default(varsayılan) qurucular Sinfidəki (numerik) field-lərə  zero(0) (string və object) - filed-lərə isə (null) - dəyəri Təyin Edir.  Qurucularda Bəzi Vacib Nöqtələr Vardır.
 
@@ -505,7 +505,7 @@ Hər Obyekt Yaradanda Ferqli Deyerler Teyin Etmek Mümkün Deyil. Varsayılan Qu
     
 > 4.4)Qurucu Statik olaraq təyin olunarsa  Bütün Obyektlər Üçün Bir dəfə Çağırılır və Sinifin ilk Obyekti Yaradilan Anda işə düşür         Statik Bir Qurucu Sinifin Statik Olan Üzvlərini Başlatmaq və Sadəcə Bir dəfə run olunacaq kodu İşə salmaq üçün İstifade Olunur.
 
-98. What is a Destructor in C# ? 
+98. What is a Destructor in C# ? ( Cavidan )
  
   >Destructor(yıxıcı metodlar) Constructor(qurucu metodlar) - ın tam tersidir. Referans Tipli Dəyişənlər Heap Üzərində Yaradılırlar və      Yaradıldıqca RAM - da yer tutrlar buda yaddaşa təsir edir. Yeni Obyektlərən Yaradılması Üçün Heap Sahəsinin Təmizlənməsi Lazımdır.      Yaradılan Bir Obyektin Heap - dan Silinmesinden əvvəl işə düşən metodlar-a destructor(yıxıcı) metodlar deyilir. .NET Framevork          işərisindı GC(Grabge Collector) Heap-da Olan Ancaq Referans Edilməyən Obyektləri artıq bu obyekt istifade olunmur deye fikirləşir və    heap-dan silir. Bu Əməliyyat belə Yerinə Yetirilir. GC(Garbage Collector) - un Bir Siyahısı var və GC() bu siyahıda refernası olmayan    obyektləri tapır və silir. Ama Biz GC(Garbage Collector)-un Bu Prosesi nə vaxt yerinə yetirdiyini bilmirik. Hətta Bəzən GC(Garbage      Collector) - işə düşmədən Program Bağlana Bilər və Referansı Olmayan Obyektlər Heap Üzərində Qalacaq. Tamda burda destructor()          köməyimizə çatır. Ama Bu Metod Çoxda İşlənən metod deyil. Bəzi irəli səviyyəli şərtlər tələb edir(hər ağzına gələn yerə destructor()    atma demək istiyrəm). İlk öncə destructor() metodların təyin edilmsinə baxaq.
   
@@ -515,10 +515,10 @@ Hər Obyekt Yaradanda Ferqli Deyerler Teyin Etmek Mümkün Deyil. Varsayılan Qu
      
 > Sintaks Cəhətdən constructor(qurucu metodlara) oxşayırlar ama hər hansı bir Access Modifieri və return(geri dönüş) dəyəri olmur.         Başında isə (~) işarəsi olur.    
 
-99. What is CLR in c# ?
+99. What is CLR in c# ? ( Cavidan )
 
 > Bu Mövzu genişdi sabaha hell edib edit eliyərəm
 
-100. What is Garbage Collecter in C#?
+100. What is Garbage Collecter in C#? ( Cavidan )
 
 > .NET Framevork          işərisindı GC(Grabge Collector) Heap-da Olan Ancaq Referans Edilməyən Obyektləri artıq bu obyekt istifade olunmur deye fikirləşir və    heap-dan silir. Bu Əməliyyat belə Yerinə Yetirilir. GC(Garbage Collector) - un Bir Siyahısı var və GC() bu siyahıda refernası olmayan    obyektləri tapır və silir.
