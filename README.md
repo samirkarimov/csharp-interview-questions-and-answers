@@ -169,7 +169,56 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 > This keyword ü hər hansı bir klasdan yaranan obyektə işarə edir. Static keyword ü isə class member sayılmayıb hər hansı bir namespace səviyyəsində əlçatılan hər hansı bir dəyişəni, metodu, property ni işarə edir. Əgər class daxilində təyin olunubsa, bir başa class dan müraciət olunur. Class ın static olmayan property və ya metodunu static metodun içinə ötürməyi  2 üsulu var. Visualda verdiyim misalda ForThis() mənə ForThisİnStaticMethod() class ı tipində bir obyekt qaytaracaq, sonra isə ForStatic() metodu da bizə yenə də ForThisİnStaticMethod() klası tipində bir obyekt qaytaracaq.
 
 28. What are value types in C#? C#-da deyer tipleri nedir ne demekdir? 
+
+ > Data tiplər mövzusunu bildiyinizi varsayırıq. C# - da bu datatipləri dəyərlərini necə saxladıglarına görə sinifləndirilirlər. C# - da aşağıdakı data tipleri vardır.
+ 
+ > Value Type(Dəyər Tipləri)
+ > Reference Type(Refernas Tipləri)
+ 
+ > Bir data tipi öz yaddaş sahəsi içində bir dəyişənin dəyərini saxlayırsa bu "Value Type" - dır. Bunun Menası(Value Type dəyişənlər birbaşa öz dəyərlərini Saxlayırlar) Məsələn. Düşünün ki
+ 
+    int i = 100 
+    
+Yuxardakı Nümunədə Sistem 100 - ü   "i" - dəyişəni üçün ayrılmış yaddaş sahəsində saxlayır.(Value ve Refrence Type Məsləsi üçün sexmli source http://www.tutorialsteacher.com/csharp/csharp-value-type-and-reference-type - burdan daha yaxşı başa düşmək olar)
+
+Aşagıdakılar C# - da Olan Dəyər(Value) Tipləridir.
+
+  >1.bool
+  >2.byte
+  >3.char
+  >4.decimal
+  >5.double
+  >6.enum
+  >7.float
+  >8.int
+  >9.long
+  >10.sbyte
+  >11.short
+  >12.struct
+  >13.uint
+  >14.ulong
+  >15.short
+
+
 30. What are reference types in C#?
+
+ > Dəyər(Value) tiplərinin əksinə referans tiplər dəyərlərini birbaşa saxlamırlar. Bunun əvəzinə dəyərin depolandığı adresi saxlayırlar. Başqa bir deyişlə bir referans tipi dataları tutan başqa bir yaddaş konumuna işarətçi(pointer) saxlayır.
+ 
+>C# - da olan referans tiplər
+
+>1.stringlər
+>2.Bütün array-lar hətta onların elementəri
+>3.siniflər
+>4.delegatelər
+
+>Referans tiplərinin default(varsayılan) -  null dəyəri vardır. Referans tip dəyişənlər başladılmayanda(dəyər təyin olunmayanda) bu default dəyərlər avtomatik olaraq C# - tərəfindən təyin olunur. Məsələn
+
+    string name;
+    
+>Heç bir dəyəri olmadığı üçün bunun default(varsayılan) dəyəri null - dur    
+
+>http://www.tutorialsteacher.com/csharp/csharp-value-type-and-reference-type(daha yaxşı başa düşmək üçün link)
+
 31. Can we override private virtual method in C#?
 > protected internal access modifier in əsas məğzi ondan ibarətdir ki, bu modifikatorla təyin olunmuş istənilən metod və ya property ni ancaq miras alındığı class istifadə edə bilər. İnsan üzərindən danışsaq belə deyə bilərəm ki, Babanın bu xüsusiyyətini ancaq ata daşıya bilər, sonradan nəvə və başqaları bu xüsusiyyəti daşıya biməzlər
 32. Explain access modifier – “protected internal” in C#?
