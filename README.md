@@ -46,30 +46,12 @@ Səkinə tərəfindən:
 
 5. C# - daki Kamentariya Tiplərini İzah Edin ( Vilayət )
 
-> c#-da Kamentariyalar Bizə Kod Hissəciylərini Başa Düçməyimizə Kömək Edir. Kamentariyalar Compiler Terefinden Tamamən Yox Sayilir
-
-> C#-da 3 Kamentariya Tipi Vardırş
-
->1.Single Line Comments(Tək Sətir Kamentlər)
- 2.Multi Line Coments(Çox Sətirli Kamentlər)
- 3.XML Comments(XML Kamentlər)
-
- > 1) Tək Sətirlər Kamentlər Cüt Slaş ilə Başlayır , Compiler " // " - dan Sonra Sətirin Altina Düçənə Qədər Yazilan Hər Şeyi Yox Sayır 
-   
-       int a = 5  // 5 və 7 - ni Toplayır
-   
-> Tək Sətirli Kamentariyalar Ayrı Bir Sətirdə və ya Kodlarla Eyni Sətirdə Yazıla Bilər  Ama Ayrı Bir Sətirdə Yazmaq Daha Yaxşıdır.
-   
-
- > 2) Cox Sətirli Kamnentariyalar " /* " - ilə Başlayır və  " *\ " Bitir. Çox Sətirli Kamentariyalar Birdən Çox Sətirə Yayıla Bilər.
-
-
-  > 3)XML - Bilmirəm Hələki
-
-  > Kamentariyalar Kod Hissəciklərini izah Etmək Üçün İstifade Olunur Ama Çox İstifade Etmək Olmaz
-
- > 1)Kamentariyalar Qarışıq Algoritmaları İzah Etmək Üçün İstifade Edilməsi Daha Düzgündür.
- > 2)Kamentariyalar Uzun Bir açıqlama Yerinə qısa və kankret olmalıdır.
+> Komentariya şərhləri bizim yazdığımız programın hər hansı bir hissəsinə qeyd əlavə etmək istədikdə, yazdığımız kodun oxumamasını istədikdə  bir sözlə bizə lazımı hissənin oxunmamsını istədikdə bu şərhlərdən istifadə edirik.
+C # -da aşağıdakı növlərdə komentariya növləri vardır.
+1. Tək xətt  (  //  ) - Bu növ əsasən tək cümlələri qısa mətnləri və ya kodları kommentə almaq üçün istifadə olunur.
+2. Çox xətt (  /*  */  )  - Bu növ böyük mətn və ya kodları kommentə almağ üçün istifadə olunur.
+3. XML (  ///  ) - XML də istifadə olunur
+Digər versiya isə kommentə almaq üçün Mətn Redaktoru ToolBar-ından Comment və Uncomment düyməsini klikləyin.
 
    
 
@@ -177,6 +159,14 @@ Logical errorları o deməydiki prog. tam işliyir amma istifadəçiyə təqdim 
 33. In try block if we add return statement whether finally block is executed in C#? ( Zohrali )
 34. What you mean by inner exception in C#?( Mustafa )
 35. C# da String Builder klasın izah edin. ( Vilayet )
+> StringBuilder dediyimiz klas əsasən iki ədəd string dəyəri + operatoru ilə birləşməsinin eynisin edir. + operatoru ilə yarandıqda yaddaşda çoxlu string ifadələr yaranır,  çoxlu yer tutur və performansın aşağı düşməsinə səbəb olur. Ona görə də biz StringBuilder istifadə edirik. Elə onun ən çox istifadə olunan metodu Append() metodundan istifadə edək.
+1. StringBuilder sb = new StringBuilder();
+2. sb.Append(3);
+3. sb.Append(4);
+4. MessageBox.Show(sb.ToString());     
+5. Nəticə: 34
+Göründüyü kimi 3 və 4 dəyərlərin string bir dəyər olaraq alqıladı və onları birləşdirib ekrana yazdırdı. Bu klas inheritance verməz. Çünki dəyişkən bir klasdır. 
+
 36. What is the difference between “StringBuilder” and “String” in C#? ( Vilayet )
 37. What is the difference between methods – “System.Array.Clone()” and “System.Array.CopyTo()” in C#? ( Zamin )
 38. Can you store multiple data types in an array? ( Zamin )
