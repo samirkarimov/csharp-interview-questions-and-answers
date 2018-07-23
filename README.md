@@ -85,21 +85,22 @@ Buç class ların idarə edilmsi və onların başqa namespace lərdə istifadə
 <<<<<<< HEAD
 
 > Fərz edək ki Bir dəyişənimiz var  və biz bu dəyişənimizin dəyərinin heç bir yerdə dəyişilməməsini sabit qalmasını istəyə bilərik.Bu     zaman Bize (const) - keyvordu komək edir. Const keyvordunun Qaydaları.
-> 1. Const keyüordu local Dəyişənlərə və Filed-lərə Təyin Edilə Bilər.
-> 2. Const keyüordu yalnız primitiv dəyərlərə təyin edilə bilər(int double).
+> 1. Const keywordu local Dəyişənlərə və Filed-lərə Təyin Edilə Bilər.
+> 2. Const keywordu yalnız primitiv dəyərlərə təyin edilə bilər(int double).
 > 3. Constant təyin etdiyimiz (field ve dəyişənlərə) declaration anında dəyər təyin etməliyik.
 > 4. Constant dəyişənlər (const) - keyüordu ilə təyin edilir.
 =======
 >"const" keyword u bir class daxilində və ya bir proq da sabit qalacaq dəyişənləri declare etmək üçün istifadə olunur. Adi dəyişəndən fərqi ondan ibarətdir ki, onu dəyər vermədən bəyan etdiyimiz halda "const" la bəyan etdiyimiz bir dəyişənə mütləq sürətdə bir dəyər assign etməliyik əksi halda səhv yaranacaq. Bütün numeric data type larla, o cümlədən Bool tipi ile, string lərlə, null tipi ilə işlənə bilir. Class daxilində ancaq atributlara təyin oluna bilir. Method lara təyin oluna bilməz. Static keyword u ilə təyin edilə bilməz. Onsuz da "const" özü static xüsusiyyəti daşıyır. Çünki adi class da olan adi və "const"la olan property yə fərqli cür müraciət olunur. Adi property yə class dan yaranmış obyektlə, "const"la olan property yə class vasitəsilə müraciət etmək mümkündür. Məs : Visual a baxın.
- Amma "const" istifadəsində bir şeyoi nəzərə almaq lazımdır ki, proqram daxilində uzun zaman sonra dəyişəcək dataları "const" la vermək düzgün deyil. Məs: məhsulun növünü, qiymətini hətta şirkətin şüar və şirkəti digərlərindən fərqləndirən xüsusiyyətləri belə const la vermək düzgün deyil. Bir const dəyəri verən zaman sonradan onu override etmek olmur.
+ Amma "const" istifadəsində bir şeyi nəzərə almaq lazımdır ki, proqram daxilində uzun zaman sonra dəyişəcək dataları "const" la vermək düzgün deyil. Məs: məhsulun növünü, qiymətini hətta şirkətin şüar və şirkəti digərlərindən fərqləndirən xüsusiyyətləri belə const la vermək düzgün deyil. Bir const dəyəri verən zaman sonradan onu override etmek olmur.
 >>>>>>> 51f3de6cdc71219301ef12fcb23861bc29fb79cd
 
-12. What is the difference between “constant” and “readonly” variables in C#? ( Emin )
+12. C#-da “constant” və “readonly” datatypeları arasındaki fərq nədir? ( Emin )
 > "readonly" keyword u const kimi yenə sabit dəyərlər yaratmaq üçün istifadə olunur. Fərqi ondan ibarətdir ki, const un sonradan dəyərini dəyişdirmək olmursa, "readonly" nin dəyərini dəyişdirmək mümkündür. Ancaq class daxilində bəyan edilə bilir. Const la bəyan edilən bir dəyərə ancaq class la müraciət etmək mümkündürsə readonly ilə bir property yə obyekt vasitəsilə müraciət etmək olur. Readonly nin dəyərini sonradan dəyişdirmək mümkündür, ancaq bu const da olmur.
 
 13. C# -da “static” açar sözünü izah edin ? ( Emin )
+Static sözünün hərfi mənası sabit, dəyişməzdir. Static classların diğərləridən əsas fərqi intance oluna bilməz yəni new keywordundan istifadə edərək static bir class-ın tipində yeni variable yarada bilmərik. Misal üçün : deyək ki, ToolClass adlı bir static classımızın MethodA adlı bir public metodu var. Bu halda həmin metod belə çağırılacaqdır : UtilityClass.MethodA();  . Static classlara misal olaraq C#-da System.Math classını göstərmək olar. Bir class-ın həm static həm də non-static metodları ola bilər.
 14. What is the difference between “dispose” and “finalize” variables in C#?( Mustafa )
-15. How the exception handling is done in C#? ( Sekine )
+15. C#-da exception handling necə həyata keçirilir? ( Sekine )
 > C# da  exeption problemi yazılan kodda səhv yaranan zaman meydana çıxır və proq. ın cash olmasına səbəb olur. Bunu aradan qaldırmağın 3 üsulu var:
 Try - catch();
 Try - finally();
@@ -425,9 +426,7 @@ Bele Daha Düzgündür Artıq Base(təməl) Sinifdəki Metod Gizləndi.
 
 96. What is an Interface in C# ? ( Zöhralı )
 97. What is a Constructor in C# ? ( Fazil )
-
-> Qurucular Xüsusi Metodlardır və Sinifdən örnəy(abyekt) yaratdıgımız anda işə düşürlər.Qurucuların Əsas Məqsədi Sinifin Örnəyi Yaranan Anda Sinifdə Olan (private) gizli field-lari Başlatmaqdır. Əgər Biz Özümüz Qurucu Metod Yazmasaq (Compiler) Avtomatik Olaraq Default Qurucu Metodu İşə Salacaq. Default(varsayılan) qurucular Sinfidəki (numerik) field-lərə  zero(0) (string və object) - filed-lərə isə (null) - dəyəri Təyin Edir.  Qurucularda Bəzi Vacib Nöqtələr Vardır.
-
+> Qurucular Xüsusi Metodlardır və Sinifdən örnək(obyekt) yaratdıgımız anda işə düşürlər.Qurucuların Əsas Məqsədi Sinifin Örnəyi Yaranan Anda Sinifdə Olan (private) gizli field-lari Başlatmaqdır. Əgər Biz Özümüz Qurucu Metod Yazmasaq (Compiler) Avtomatik Olaraq Default Qurucu Metodu İşə Salacaq. Default(varsayılan) qurucular Sinfidəki (numerik) field-lərə  zero(0) (string və object) - filed-lərə isə (null) - dəyəri Təyin Edir.  Qurucularda Bəzi Vacib Nöqtələr Vardır.
 > 1.Sinifin Birdən Çox Qurucu Metodu Ola Bilər
 > 2.Bir Qurucu Metodun Hansısa (return) Tipi Yoxdur (void) - də Daxil Olmaqla. Çünkü Obyekt return Edir.
 > 3.Statik Qurucular Parameter Qəbul Edə Bilməzlər.
@@ -464,11 +463,6 @@ Hər Obyekt Yaradanda Ferqli Deyerler Teyin Etmek Mümkün Deyil. Varsayılan Qu
   
   > 1.Statik Qurucuların Parameteri və Access Modifieri Olmur
   > 2.Statik qurucu işə düşdüyündə istifadeci onu idarə edə bilməz
-  
-  
-  
-  
-
    
      public class Employee 
      {
