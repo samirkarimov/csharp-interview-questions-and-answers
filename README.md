@@ -7,14 +7,7 @@
 1. C# nədir? (Cavidan)
 
 > C# 2000 - ci ildə "Andres Heilsberg" - tərəfindən Microsoft - da Java - ya Rəqib Olaraq İnkişaf Etdirilən , sadə müasir , ümumi məqsədlər üçün  yaradılmış, Obyekt Yönümlü Bir Programlama Dilidir.  C#, özündə  böyük əməliyyatlar ehtiva edən, özündə böyük məlumat daşıyan - ötürən, bir şirkətin virtual idarə edilməsi üçün lazım olan bir proqram(CRM) yazmaq üçün  hər şeyi özündə birləşdirən proqramlaşdırma dilidir. C# real dünya obyektlərini daha aydın şəkildə virtual aləmdə tətbiq etmək üçün ən səmərəli dillərdən biridir.C# multi paradiqmalı proqramlaşdırma dilidir.Özündə imperative,deklarativ,functional,generic,OOP paradiqmaları cəmləşdirir. İnkişaf etmiş bir xüsusiyyəti də odur ki, DEBUGGER ayarı ilə səhv ehtimalları aradan qaldırılır. Yazılı proqramdan sonra kompilyator tərəfindən təsbit edilən siniflər və sintaksis səhvləri proqramçı tərəfindən ayrı-ayrı ekranda göstərilir və proqramçı bu xəta pəncərəsindəki səhvləri aşkar edərək asanlıqla düzəldə bilər. C# - Microsoftun Java Uzərində Dəyişiklik Etməsini İstəmədiyi Ücün Yaradıldı. C# - İlk Yaradildigi Gündən Bəri Sürətli Bir Şəkildə Böyüdü və Hal-hazırda Dünyanın Ən Populyar Programlama Dillərindən Biridir. Microsoft Platformunda Program Təminatlari İnkişaf Etdirmək Üçün Dizayn Edilmiş Ümumi Məqsədli bir dildir ve Windows Üzərində İşləmək Üçün .NET Framework Tələb Edir.C# - in Yaradilmasinda C ve C++ - dan İstifade Edilib və Buna Gorədə C#  C və C++ - in Hibrididir. .NET Framework Bir Çox Programlama Dilini Dəstəkləsədə C# Sürətli Bir Şəkildə Ən Populyar OlanlardanBiri Halına Gəldi. C#  - Demək Olar ki  Hər Şey Yaratmaq Üçün İstifade Olunur ama Özəlliylə windows Masaüstü Program Teminatlari və Oyunlar Yazmaq Üçcün Daha Yaxşıdır. C# - Həmçinin Web-Tətbiqlər Yaratmaq Üçündə İstifade Olunur amma özəlliklə Mabil Tətbiqlər İnkişaf Etdirmək üçündə get-gede daha Populyar Hala Gəlmişdir.Xamarin Kimi Cross-Platform alətlər(tool-lar) C# - da Yazılan Tətbiqləri Demək Olar ki Bütün Mabil Cihazlar-da İstifadə Olunmasını Təmin Edir.
-
 > C# - Günümüzdə Ən Papulyar Oyun Mühərriki olan Unity Oyun Mühərrikini İstifadə Edərək Oyunlar Yaratmaqı Təmin Edir. En Yaxşı Oyunların   3/1 - dən Çoxu Unity İlə Yaradıldı ve Unity Muhherikini İstifadəsi İlə Yaradılan Təqribən 770 milyon aktiv Oyun İstifadecisi Var. C# -   Bu Tətbiqləri Yaratmaq Üçün Populyar Bir Alətdir Programçı ve Programlamaya Yeni Başlayanlar Üçün-də Mükəmməl Bir Seçimdir.C# -         həmçinin Statik Olaraq Yazılmış Bir Dil-dir  və Bu Səbəblə Bir Təminata(exe) - Çevrilmədən Öncə Yoxlanilir. Bu Yeni Başlayanlar Üçün     Xüsusilə Praktik Ola Biləcəy Xətaları Tapmaqı Asanlaşdlrır. C# - Qarmaşıq Bir Dil-dir və Bu Dildə Master Olmaq Bəzi Sade Dillər         ilə(Pyton) Müqayisede Daha Çox Vaxt Alır. Bu O Demək-dir ki Programçının İrəli Səviyyəli Programlar Yazmaqi Üçün Daha Çox Kod           Öyrənməyi Lazımdır ve Bu Yeni Başlayanlar Üçün Sinir Bozucu Ola Bilər. Güclü Əsnək və Microsoft Tərəfindən Dəstəklənmiş Olması C# - ı   Movcud Olan Ən Yaxşı Programlama Dillərindən Biri Halına Gətirmişdir.Bu Gün C# - Ən Yaxşı Programlama Dilləri Arasında 4 - cü Sırada     Yer Alır ve Teqribi Developerlərin 31 faizi Bu Dili Müntəzəm Olaraq İsitfadə Edir. Həmçinin C# Stack-overflovda(Hansıki C# - ilə         Yaradıldi) 1.1 milyondan çox mövzu ilə 3-cü sırada yer alır. Bu Populyarlıq İnkişaf Etmiş İş Bazarına Çevrilir. Hər Ay 17000 - dən Çox   C# - işləri Elan Edilir və Ortalama 72000$ - dan çoc maaş - ilə. Sadəcə Birləşmiş Ştatlar-da Hər ay 92000$ - lıq Maaşla 6 mindən Çox     İş Elan Edilir.
-
-
-
-
-
-
 
 2. C# - ın özəlliklərini İzah Edin? ( Suleyman )
 
@@ -31,8 +24,6 @@
   - Birliktə Calisabilirlik(Interoperability)
 
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın. ( Sekine )
-
-Səkinə tərəfindən:
   - Type-safe olması;
   - Obyekt yönümlü olması;
   - .Net platforması altında işləməsi;
@@ -40,14 +31,14 @@ Səkinə tərəfindən:
   - C# dilində yazılan programları .Net platforması altında digər dillərdə istifadə edə bilmə.
   
   
-4. What are IDE’s provided by Microsoft for C# development? ( Naib )
+4. C# development üçün hansı IDE-lər Microsoft tərəfindən təmin edilib ? ( Naib )
 
-> Visual Studio 2017
+> Visual Studio
 
-5. C# - daki Kamentariya Tiplərini İzah Edin ( Vilayət )
+5. C# - daki Komment Tiplərini İzah Edin ( Vilayət )
 
-> Komentariya şərhləri bizim yazdığımız programın hər hansı bir hissəsinə qeyd əlavə etmək istədikdə, yazdığımız kodun oxumamasını istədikdə  bir sözlə bizə lazımı hissənin oxunmamsını istədikdə bu şərhlərdən istifadə edirik.
-C # -da aşağıdakı növlərdə komentariya növləri vardır.
+> Kommentləri - şərhləri bizim yazdığımız programın hər hansı bir hissəsinə qeyd əlavə etmək istədikdə, yazdığımız kodun oxumamasını istədikdə  bir sözlə bizə lazımı hissənin oxunmamasını istədikdə istifadə edirik.
+C # -da aşağıdakı növlərdə komment növləri vardır.
 1. Tək xətt  (  //  ) - Bu növ əsasən tək cümlələri qısa mətnləri və ya kodları kommentə almaq üçün istifadə olunur.
 2. Çox xətt (  /*  */  )  - Bu növ böyük mətn və ya kodları kommentə almağ üçün istifadə olunur.
 3. XML (  ///  ) - XML də istifadə olunur
@@ -59,10 +50,10 @@ Digər versiya isə kommentə almaq üçün Mətn Redaktoru ToolBar-ından Comme
 
 > Sealed Klass Obyekt Yönümlü Programlamanın İnheritance(miras) Xüsusiyyətini Ləğv Edir. Sealed Klasin İxtira Olunmasinin Səbəbi Odur ki Həmin Klasin Genişləndirilməyə Ehtiyyacinın Olmadığını deyirikk. Bu Klass İnheritance Ala Bilməz. C# - da "sealed" keywordu Klasın Sealed Klas Olduğunu Müəyyən Edir. Əgər Sealed Tətin Olunmuş Klas-dan İnheritance Almaqa Cehd Etsək Compile Error Verəcək.
 
-7. Give an example of using sealed class in C#? ( Fazil )
+7. C# - daki Sealed Klasına nümunə verin? ( Fazil )
 " Sealed " class OOP nin miras xüsusiyyətlərini məhdudlaşdırmaq üçün istifadə olunur. Hər hansı bir class "sealed" keyvordu ilə bəyan edildikdə miras alına bilmir. "sealed" eyni zamanda həm atributlara həm də method lara təyin oluna bilsə də "sealed" keyvord unun bu xüsusiyyəti onlara aid edilmir. Sadəcə class üzrə təyin oluna bilir. 2 misalla visualda izah edəcəm
 
-8. List out the differences between Array and ArrayList in C#? ( Mirzamin )
+8. C#-da array və arraylist arasındaki fərqləri say. ( Mirzamin )
 > hər 2sinin oxşarlıqı ondan ibarətdir ki, 1 dən çox datanı saxlamaq üçün istifadə olunur.
 Array lərin Listlərdən başlıca xüsusiyyəti ondan ibarətdir ki, array lər sabit elementləri saxlamaq üçündür. List lərdə isə datanın sayı avtomatik təyin olunduğundan başda sayı bildirmək lazım deyil. 
 Bir array təyin etdikdən sonra onun elementlərini artırmaq olmur. List lərə isə sonradan istənilən sayda element artırmaq mümkündür.
@@ -74,10 +65,9 @@ Bir Array yalanız " using System; " namespace ilə istfadə edildiyi halda Arra
 Directive kimi :
 C#  da "using" keyvord u fərqli namespace lərin müxtəlif classlarını və methodlarını istifadə etmək üçün istifadə olunur.
 Statement kimi :
-
 > "using" - keywordu istifade etdiyiniz siniflərdə avtomatik olaraq dispose() metodunu işə salır. Yəni işimiz Bitdikdən sonra ObjectName.Dispose() yazmaq lazım deyil. "using" - bunu bizim Yerimizə eliyir.(bu temanı başa düşmək üçün dispose() metodunu bilmək lazımdır sual - 14 - e bax)
 
-    using(işlənəcəy kodlar)
+    using(işlənəcək kodlar)
     {
       Burda yazılan kodlar avtomatik olaraq Dispose() - əməliyyatına məruz qalır. 
       Burda yazılan kodların ömrü burda bitir.
@@ -85,13 +75,13 @@ Statement kimi :
 
 
  
-10. Explain namespaces in C#? ( Elvin )
-> "namespace" keyvvord u c# da 2cür istifadə ediə bili :
+10. C#-da namespace-ləri izah edin? ( Elvin )
+> "namespace" keyvvord u c# da 2cür istifadə edilə bilər :
 1cisi : Öz lahiyələrimizi yazan zaman çoxlu class istifdə etdiyimiz zaman.
 Buç class ların idarə edilmsi və onların başqa namespace lərdə istifadəsini asanlaşdırır
 2cisi : Öz lahiyələrimizdə c#  tərəfindən yazılmış hazır class ların methodlarını istifadə etmək üçün. Məsələn müəyyən bir nəticəni ekrana çixartmaq üçün istifadə olunan Console class ının methodu olan WritLine() method unu istifadə edə bilmirik. Bu zaman CİL(Common İntermadiete Language) ikinci adı ilə .Net platformu System class ından istifadə edir: System.Console.WritLine(); bunun qarşısını almaq üçün, ümumiyyətlə c# da bunun kimi müxtəlif methodları sərbəst istifadəsini asanlaşdırmaq üçün "namespace" keyvord undan istifadə edilir.
 
-11. Why to use keyword “const” in C#? Give an example. ( Fazil )
+11. C#-da “const” keyword-undan niyə istifadə olunur? Nümunə verin. ( Fazil )
 <<<<<<< HEAD
 
 > Fərz edək ki Bir dəyişənimiz var  və biz bu dəyişənimizin dəyərinin heç bir yerdə dəyişilməməsini sabit qalmasını istəyə bilərik.Bu     zaman Bize (const) - keyvordu komək edir. Const keyvordunun Qaydaları.
