@@ -298,7 +298,8 @@ C# compilerinin adı CSC-dir. Misal üçün Code.cs faylının executable-ını 
 76. Explain the methods and properties of Thread class in C#? ( Vilayət )
 77. Class nədir ? @beshirazizov
 > Class sizə başqa type-ları, metodları, eventləri birləşdirərək öz type-nızı yaratmağa imkan verən quruluşdur. Class-lar bir növ qəlib xarakteri daşıyırlar. OOP məntiqli dillərin onurğasını class anlayışı təşkil edir. Əğər class static olaraq declare olunmayıbsa, həmin class-ın instance-larını yaratmaq mümkündür. Instance-lar öz class-ları type-ında obyekt hesab olunurlar. Class tərəfindən müəyyənləşən type-lar reference type hesab olunur. Class-lar class açar sözündən istifadə olunaraq declare olunur(yaradılır).Class-lar əgər sealed olaraq tanımlanmayıblarsa başqa class-lardan inherit(miras) ala və ya başqa class-a inherit(miras) verə bilirlər.
-78. What is an Object? ( Vilayət )
+78. Obyekt nədir?
+> Yuxarıda class-lar barədə məlumat vermişdik. Obyekt sadə dildə desək class-a görə formalaşmış yaddaş blokudur. Bir proqramın içində eyni class-dan bir çox obyekt yrada bilərik.
 79. What are the Access Modifiers in C# ? ( Fazil )
 80. Explain Static Members in C# ? ( Emin )
 81. What is Reference Type in C# ? ( Oktay )
